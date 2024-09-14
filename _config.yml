@@ -1,5 +1,30 @@
-title: Marketing Agency
-description: Professional marketing solutions
-lang: en
-baseurl: "/promoartnetpl" # Set the base URL to match the repository name
-google_analytics: UA-XXXXX-Y
+# _config.yml
+title: "My Jekyll Site"
+baseurl: ""
+url: "https://<your-github-username>.github.io/my-jekyll-site"
+
+# Language configuration
+defaults:
+  - scope:
+      path: ""
+    values:
+      lang: "pl"
+
+languages:
+  - pl
+  - en
+
+# Google Analytics
+google_analytics: "UA-XXXXXXXXX-X" # Replace with your Google Analytics tracking ID
+
+# Include the Tailwind CSS file
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-multiple-languages-plugin

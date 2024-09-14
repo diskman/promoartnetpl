@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'jekyll', '~> 4.2.0'
+gem 'jekyll-seo-tag'
+gem 'jekyll-sitemap'
+gem 'jekyll-feed'
+gem 'jekyll-paginate'
+gem 'jekyll-redirect-from'
+gem 'jekyll-multiple-languages-plugin'
