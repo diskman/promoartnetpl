@@ -1,4 +1,5 @@
 title: Marketing Agency
 description: Professional marketing solutions
 lang: en
+baseurl: "/promoartnetpl" # Set the base URL to match the repository name
 google_analytics: UA-XXXXX-Y
