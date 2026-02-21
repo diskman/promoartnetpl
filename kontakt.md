@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact Details
-permalink: /contact/
+permalink: /kontakt/
 ---
 
 <div class="bg-white rounded-2xl p-10 border border-gray-100 shadow-sm leading-relaxed text-lg text-gray-700 max-w-2xl mx-auto">

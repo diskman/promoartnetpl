@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About Me
-permalink: /about/
+title: O nas
+permalink: /o-nas/
 ---
 
 <div class="bg-white rounded-2xl p-10 border border-gray-100 shadow-sm leading-relaxed text-lg text-gray-700">
