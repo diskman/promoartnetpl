@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Pakiet Startowy Social Media">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e0f2fe" />
+      <stop offset="100%" stop-color="#fef3c7" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)" />
+  <rect x="80" y="110" width="1040" height="455" rx="48" fill="#ffffff" opacity="0.9" />
+  <circle cx="260" cy="260" r="90" fill="#38bdf8" />
+  <circle cx="340" cy="350" r="60" fill="#f97316" />
+  <rect x="470" y="220" width="560" height="40" rx="20" fill="#0f172a" />
+  <rect x="470" y="290" width="420" height="24" rx="12" fill="#64748b" />
+  <rect x="470" y="340" width="360" height="24" rx="12" fill="#94a3b8" />
+  <rect x="470" y="390" width="280" height="24" rx="12" fill="#cbd5f5" />
+  <text x="470" y="470" font-family="Arial, sans-serif" font-size="32" fill="#0f172a" font-weight="700">Social Media Launch</text>
+</svg>

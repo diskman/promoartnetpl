@@ -21,3 +21,9 @@ exclude:
   - Dockerfile
   - docker-compose.yml
   - README.md
+
+collections:
+  products:
+    output: true
+    permalink: /products/:name/
+

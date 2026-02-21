@@ -55,12 +55,13 @@
   <div id="scroll-progress" class="scroll-progress" aria-hidden="true"></div>
   <header id="site-header" class="site-header bg-white border-b border-gray-200">
     <div class="max-w-4xl mx-auto px-4 py-6 flex justify-between items-center">
-      <a href="{{ '/' | relative_url }}" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition">
-        {{ site.title }}
+      <a href="{{ '/' | relative_url }}" class="inline-flex items-center" aria-label="{{ site.title }}">
+        <img src="{{ '/assets/img/logo.jpg' | relative_url }}" alt="{{ site.title }}" class="h-12" style="width: auto;">
       </a>
       <nav class="space-x-6">
         <a href="{{ '/' | relative_url }}" {% if current_url == '/' %}aria-current="page"{% endif %} class="{% if current_url == '/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Home</a>
         <a href="{{ '/portfolio/' | relative_url }}" {% if current_url == '/portfolio/' %}aria-current="page"{% endif %} class="{% if current_url == '/portfolio/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Portfolio</a>
+        <a href="{{ '/products/' | relative_url }}" {% if current_url == '/products/' %}aria-current="page"{% endif %} class="{% if current_url == '/products/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Produkty</a>
         <a href="{{ '/about/' | relative_url }}" {% if current_url == '/about/' %}aria-current="page"{% endif %} class="{% if current_url == '/about/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">About</a>
         <a href="{{ '/contact/' | relative_url }}" {% if current_url == '/contact/' %}aria-current="page"{% endif %} class="{% if current_url == '/contact/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Contact</a>
         <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle color theme" aria-pressed="false">
@@ -275,3 +276,4 @@
   </script>
 </body>
 </html>
+

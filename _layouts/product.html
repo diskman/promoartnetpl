@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<article class="max-w-4xl mx-auto">
+  <header class="mb-8 grid md:grid-cols-2 gap-8 items-center">
+    <div>
+      <p class="text-sm uppercase tracking-wider text-blue-600 font-semibold mb-2">{{ page.category }}</p>
+      <h1 class="text-4xl font-extrabold text-gray-900 mb-4">{{ page.title }}</h1>
+      <p class="text-lg text-gray-600 mb-6">{{ page.tagline }}</p>
+      <div class="inline-flex items-center gap-2 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 text-blue-600 font-semibold">
+        {{ page.price }}
+      </div>
+    </div>
+    <div class="rounded-2xl overflow-hidden border border-gray-200 bg-white shadow-sm">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="w-full h-full object-cover">
+    </div>
+  </header>
+
+  <div class="prose lg:prose-xl max-w-none">
+    {{ content }}
+  </div>
+
+  {% if page.features %}
+  <section class="mt-10">
+    <h2 class="text-2xl font-bold text-gray-900 mb-4">Co zawiera</h2>
+    <ul class="grid md:grid-cols-2 gap-4">
+      {% for item in page.features %}
+      <li class="border border-gray-200 rounded-xl p-4 bg-white shadow-sm">
+        <p class="font-semibold text-gray-900 mb-1">{{ item.title }}</p>
+        <p class="text-gray-600 text-sm">{{ item.text }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <div class="mt-12 p-6 rounded-2xl border border-gray-200 bg-gray-100">
+    <p class="text-gray-700 font-medium">Chcesz ofertę dopasowaną do Twojej marki? Napisz do nas, a przygotujemy wariant pod Twoje potrzeby.</p>
+    <a href="{{ '/contact/' | relative_url }}" class="inline-flex items-center mt-4 text-blue-600 font-semibold hover:text-blue-700 transition">Skontaktuj się</a>
+  </div>
+</article>

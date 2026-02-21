@@ -13,7 +13,7 @@ title: Welcome to My Jekyll Site!
 <section class="mb-20">
   <div class="flex justify-between items-end mb-10">
     <div>
-      <h2 class="text-3xl font-bold text-gray-900">Marketing Services</h2>
+      <h2 class="text-3xl font-bold text-gray-900">Usługi reklamowe</h2>
       <p class="text-gray-500 mt-2">Explore our latest projects and service offerings.</p>
     </div>
   </div>
