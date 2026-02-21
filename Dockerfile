@@ -23,14 +23,11 @@ RUN bundle install && npm install
 
 # Copy the rest of the project
 COPY . .
-
-# Fix line endings and permissions for the entrypoint script specifically
-# We use || true to ensure the build doesn't fail if the file is missing
-# and we target the file directly instead of using find.
-RUN dos2unix entrypoint.sh && chmod +x entrypoint.sh
+COPY entrypoint.sh /entrypoint.sh
+RUN dos2unix /entrypoint.sh && chmod +x /entrypoint.sh
 
 # Expose ports
 EXPOSE 4000 35729
 
 # Use the entrypoint script
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]

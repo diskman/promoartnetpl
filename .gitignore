@@ -1,0 +1,59 @@
+# -------------------------------
+# Operating system files
+# -------------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# -------------------------------
+# Node / npm
+# -------------------------------
+node_modules/           # installed packages
+npm-debug.log*          # npm errors
+yarn-error.log*         # yarn errors
+package-lock.json       # optional: ignore if you rebuild in Docker
+
+# -------------------------------
+# Jekyll / Ruby
+# -------------------------------
+_site/                  # Jekyll generated site
+.sass-cache/            # Sass cache
+.bundle/                # Bundler directory
+vendor/bundle/          # Bundler installed gems
+Gemfile.lock            # optional: lockfile, ignore if not needed
+*.gem                   # built gem files
+
+# -------------------------------
+# Docker
+# -------------------------------
+docker-compose.override.yml   # local overrides
+*.env                        # environment files
+**/node_modules              # anonymous volumes for Node
+
+# -------------------------------
+# Editor / IDE
+# -------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------------
+# Logs / temp files
+# -------------------------------
+*.log
+*.tmp
+*.bak
