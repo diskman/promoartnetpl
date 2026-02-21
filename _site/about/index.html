@@ -1,32 +1,32 @@
 <!DOCTYPE html>
-<html lang="{% assign lang = page.lang | default: site.lang | default: 'en' | downcase | strip %}{% if lang == '' or lang == 'nil' %}en{% else %}{{ lang }}{% endif %}">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% assign current_url = page.url | replace: 'index.html', '' %}
-    {% assign page_title = page.title | default: site.title %}
-    {% assign page_description = page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 %}
-    {% assign page_url = page.url | absolute_url %}
-  <title>{{ page_title }}</title>
-  <meta name="description" content="{{ page_description }}">
-  <meta property="og:title" content="{{ page_title }}">
-  <meta property="og:description" content="{{ page_description }}">
-  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
-  <meta property="og:url" content="{{ page_url }}">
-  <meta property="og:site_name" content="{{ site.title }}">
+    
+    
+    
+    
+  <title>About Me</title>
+  <meta name="description" content="Jesteśmy agencją reklamową z wieloletnim doświadczeniem, specjalizującą się w tworzeniu skutecznych kampanii marketingowych. Oferujemy kompleksowe usługi, kt...">
+  <meta property="og:title" content="About Me">
+  <meta property="og:description" content="Jesteśmy agencją reklamową z wieloletnim doświadczeniem, specjalizującą się w tworzeniu skutecznych kampanii marketingowych. Oferujemy kompleksowe usługi, kt...">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://0.0.0.0:4000/about/">
+  <meta property="og:site_name" content="Promoart Agencja Reklamowa">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ page_title }}">
-  <meta name="twitter:description" content="{{ page_description }}">
+  <meta name="twitter:title" content="About Me">
+  <meta name="twitter:description" content="Jesteśmy agencją reklamową z wieloletnim doświadczeniem, specjalizującą się w tworzeniu skutecznych kampanii marketingowych. Oferujemy kompleksowe usługi, kt...">
   <meta name="theme-color" content="#2563eb">
-  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png' | relative_url }}">
-  <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}" sizes="180x180">
-  <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
+  <link rel="manifest" href="/site.webmanifest">
   <script>
     window.__siteConfig = {
-      gaId: {{ site.google_analytics | jsonify }},
-      isProduction: {{ jekyll.environment == 'production' | jsonify }}
+      gaId: "",
+      isProduction: "development"
     };
   </script>
   <script>
@@ -45,24 +45,24 @@
       }
     })();
   </script>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="/assets/css/style.css">
   <!-- Alpine.js for interactive components -->
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-  {% feed_meta %}
+  <link type="application/atom+xml" rel="alternate" href="http://0.0.0.0:4000/feed.xml" title="Promoart Agencja Reklamowa" />
 </head>
 <body class="bg-gray-50 text-gray-900 font-sans min-h-screen flex flex-col">
   <a href="#page-content" class="skip-link">Skip to content</a>
   <div id="scroll-progress" class="scroll-progress" aria-hidden="true"></div>
   <header id="site-header" class="site-header bg-white border-b border-gray-200">
     <div class="max-w-4xl mx-auto px-4 py-6 flex justify-between items-center">
-      <a href="{{ '/' | relative_url }}" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition">
-        {{ site.title }}
+      <a href="/" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition">
+        Promoart Agencja Reklamowa
       </a>
       <nav class="space-x-6">
-        <a href="{{ '/' | relative_url }}" {% if current_url == '/' %}aria-current="page"{% endif %} class="{% if current_url == '/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Home</a>
-        <a href="{{ '/portfolio/' | relative_url }}" {% if current_url == '/portfolio/' %}aria-current="page"{% endif %} class="{% if current_url == '/portfolio/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Portfolio</a>
-        <a href="{{ '/about/' | relative_url }}" {% if current_url == '/about/' %}aria-current="page"{% endif %} class="{% if current_url == '/about/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">About</a>
-        <a href="{{ '/contact/' | relative_url }}" {% if current_url == '/contact/' %}aria-current="page"{% endif %} class="{% if current_url == '/contact/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Contact</a>
+        <a href="/"  class="text-gray-600 hover:text-blue-600 font-medium transition">Home</a>
+        <a href="/portfolio/"  class="text-gray-600 hover:text-blue-600 font-medium transition">Portfolio</a>
+        <a href="/about/" aria-current="page" class="text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition">About</a>
+        <a href="/contact/"  class="text-gray-600 hover:text-blue-600 font-medium transition">Contact</a>
         <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle color theme" aria-pressed="false">
           <span id="theme-toggle-label">Dark mode</span>
         </button>
@@ -71,12 +71,45 @@
   </header>
 
   <main id="page-content" class="flex-grow max-w-4xl mx-auto px-4 py-12 w-full page-transition">
-    {{ content }}
+    <article class="prose lg:prose-xl max-w-none">
+  <h1 class="text-4xl font-extrabold text-gray-900 mb-8">About Me</h1>
+  <div class="bg-white rounded-2xl p-10 border border-gray-100 shadow-sm leading-relaxed text-lg text-gray-700">
+  <p class="mb-6">
+    This is the <strong>About Me</strong> page. You can customize this page to tell your story.
+  </p>
+
+  <h3 class="text-2xl font-bold text-gray-900 mb-4 border-b pb-2">Who am I?</h3>
+  <p class="mb-8">
+    I am a developer who loves building things with Jekyll and Docker. This setup is designed to be simple and easy to use on any machine, including Windows.
+  </p>
+
+  <div class="grid gap-6 md:grid-cols-2">
+    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
+      <h4 class="font-bold text-gray-900 mb-2">Modern Styling</h4>
+      <p class="text-sm text-gray-600">Powered by <strong>Tailwind CSS</strong> for a clean and professional look.</p>
+    </div>
+    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
+      <h4 class="font-bold text-gray-900 mb-2">Docker-First</h4>
+      <p class="text-sm text-gray-600">No need to install Ruby on your host machine. Everything is contained.</p>
+    </div>
+    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
+      <h4 class="font-bold text-gray-900 mb-2">Live Reload</h4>
+      <p class="text-sm text-gray-600">See your changes instantly as you edit. Development made easy.</p>
+    </div>
+    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
+      <h4 class="font-bold text-gray-900 mb-2">Minimalist</h4>
+      <p class="text-sm text-gray-600">Clean structure with only the essential dependencies.</p>
+    </div>
+  </div>
+</div>
+
+</article>
+
   </main>
 
   <footer class="bg-white border-t border-gray-200 py-8">
     <div class="max-w-4xl mx-auto px-4 text-center text-gray-500 text-sm">
-      &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. Built with Jekyll, Tailwind CSS & Docker.
+      &copy; 2026 Promoart Agencja Reklamowa. Built with Jekyll, Tailwind CSS & Docker.
     </div>
   </footer>
 

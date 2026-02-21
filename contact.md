@@ -1,0 +1,63 @@
+---
+layout: page
+title: Contact Details
+permalink: /contact/
+---
+
+<div class="bg-white rounded-2xl p-10 border border-gray-100 shadow-sm leading-relaxed text-lg text-gray-700 max-w-2xl mx-auto">
+  <p class="mb-10 text-center text-gray-600">
+    You can find my contact details below. Feel free to reach out to me for any questions or collaborations.
+  </p>
+
+  <div class="space-y-6">
+    <div class="flex items-center space-x-6 bg-gray-50 p-6 rounded-2xl border border-gray-200 hover:border-blue-300 transition">
+      <div class="w-14 h-14 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center flex-shrink-0">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+      </div>
+      <div>
+        <p class="text-sm font-bold text-gray-400 uppercase tracking-wider">Email</p>
+        <p class="text-xl font-bold text-gray-900">
+          <a id="contact-email-link" href="#" class="hover:text-blue-600" rel="nofollow">Click to show email</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="flex items-center space-x-6 bg-gray-50 p-6 rounded-2xl border border-gray-200 hover:border-gray-900 transition">
+      <div class="w-14 h-14 bg-gray-100 text-gray-900 rounded-xl flex items-center justify-center flex-shrink-0">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.43.372.823 1.102.823 2.222 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+      </div>
+      <div>
+        <p class="text-sm font-bold text-gray-400 uppercase tracking-wider">GitHub</p>
+        <p class="text-xl font-bold text-gray-900"><a href="https://github.com/your-username" class="hover:text-blue-600">your-github-profile</a></p>
+      </div>
+    </div>
+
+    <div class="flex items-center space-x-6 bg-gray-50 p-6 rounded-2xl border border-gray-200 hover:border-blue-400 transition">
+      <div class="w-14 h-14 bg-blue-50 text-blue-400 rounded-xl flex items-center justify-center flex-shrink-0">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.84 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+      </div>
+      <div>
+        <p class="text-sm font-bold text-gray-400 uppercase tracking-wider">Twitter</p>
+        <p class="text-xl font-bold text-gray-900"><a href="https://twitter.com/your-username" class="hover:text-blue-600">@your-username</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var link = document.getElementById('contact-email-link');
+    if (!link) return;
+
+    var userCodes = [121, 111, 117, 114, 45, 101, 109, 97, 105, 108];
+    var hostCodes = [101, 120, 97, 109, 112, 108, 101, 46, 99, 111, 109];
+
+    var user = String.fromCharCode.apply(null, userCodes);
+    var host = String.fromCharCode.apply(null, hostCodes);
+    var email = user + '@' + host;
+
+    link.textContent = email;
+    link.href = 'mailto:' + email;
+    link.rel = 'noopener noreferrer';
+  })();
+</script>

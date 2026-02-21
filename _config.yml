@@ -1,65 +1,23 @@
-# Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+title: Promoart Agencja Reklamowa
+author:
+  name: Promoart Agencja Reklamowa
+  email: biuro@promoart.net.pl
+description: >-
+  Jesteśmy agencją reklamową z wieloletnim doświadczeniem, specjalizującą się w tworzeniu skutecznych kampanii marketingowych. Oferujemy kompleksowe usługi, które pomogą Twojej firmie wyróżnić się na rynku i osiągnąć sukces. Nasz zespół składa się z kreatywnych specjalistów, którzy są gotowi sprostać nawet najbardziej wymagającym projektom. Współpracujemy z klientami z różnych branż, dostarczając im innowacyjne rozwiązania reklamowe, które przzynoszą realne rezultaty. Niezależnie od tego, czy potrzebujesz kampanii reklamowej, strategii marketingowej, czy też wsparcia w zakresie mediów społecznościowych, jesteśmy tutaj, aby pomóc Ci osiągnąć Twoje cele biznesowe. Skontaktuj się z nami już dziś, aby dowiedzieć się, jak możemy wspólnie stworzyć skuteczną kampanię reklamową, która przyniesie Twojej firmie sukces.
+baseurl: ""
+url: ""
+google_analytics: "" # np. G-XXXXXXXXXX
 
-# Google webmaster tools
-google_verify:
+plugins:
+  - jekyll-feed
 
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-contact: static
-
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
-
-# Footer settings
-footer:
-  copyright: Test
-  location: Location
-  social: Around the Web
-  credits: Credits
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: facebook
-    url: https://www.facebook.com/PromoArt.Kielce.Reklamy
-  - title: instagram
-    url: https://www.instagram.com/promoart_net_pl
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
-
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
-
-# Build settings
-markdown: kramdown
-permalink: pretty
-
-#for posts
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      permalink: ""
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - tailwind.config.js
+  - postcss.config.js
+  - entrypoint.sh
+  - Dockerfile
+  - docker-compose.yml
+  - README.md

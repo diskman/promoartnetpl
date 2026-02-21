@@ -1,0 +1,14 @@
+_site/
+.jekyll-cache/
+node_modules/
+.sass-cache/
+.git/
+.DS_Store
+*.zip
+vendor/
+.bundle/
+.vscode/
+README.md
+Dockerfile
+docker-compose.yml
+assets/css/style.css

@@ -1,0 +1,15 @@
+{
+  "name": "jekyll-tailwind-docker",
+  "version": "1.0.0",
+  "description": "Jekyll project with Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "postcss-import": "^16.0.0"
+  }
+}
