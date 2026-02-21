@@ -275,6 +275,22 @@ html.dark .cookie-btn--reject:hover {
   display: none !important;
 }
 
+.site-shell {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: clamp(1rem, 2.5vw, 2.5rem);
+  padding-right: clamp(1rem, 2.5vw, 2.5rem);
+}
+
+.reading-shell {
+  width: 100%;
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .clients-marquee {
   overflow: hidden;
   width: 100%;

@@ -54,7 +54,7 @@
   <a href="#page-content" class="skip-link">Skip to content</a>
   <div id="scroll-progress" class="scroll-progress" aria-hidden="true"></div>
   <header id="site-header" class="site-header bg-white border-b border-gray-200">
-    <div class="max-w-4xl mx-auto px-4 py-6 flex justify-between items-center">
+    <div class="site-shell py-6 flex justify-between items-center">
       <a href="{{ '/' | relative_url }}" class="inline-flex items-center" aria-label="{{ site.title }}">
         <img src="{{ '/assets/img/logo.jpg' | relative_url }}" alt="{{ site.title }}" class="h-12" style="width: auto;">
       </a>
@@ -70,12 +70,12 @@
     </div>
   </header>
 
-  <main id="page-content" class="flex-grow max-w-4xl mx-auto px-4 py-12 w-full page-transition">
+  <main id="page-content" class="flex-grow w-full py-12 page-transition site-shell">
     {{ content }}
   </main>
 
   <footer class="bg-white border-t border-gray-200 py-8">
-    <div class="max-w-4xl mx-auto px-4 text-center text-gray-500 text-sm">
+    <div class="site-shell text-center text-gray-500 text-sm">
       <p class="mb-4 text-gray-500 text-xs uppercase tracking-wider">Klienci</p>
       <div class="clients-marquee" aria-label="Lista klientów">
         <div class="clients-marquee__track">
