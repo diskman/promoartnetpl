@@ -1,5 +1,5 @@
 ---
-layout: product
+layout: oferta-item
 title: Pakiet Startowy Social Media
 category: Social Media
 price: od 99zł

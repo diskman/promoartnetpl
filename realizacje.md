@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Portfolio
-permalink: /portfolio/
+permalink: /realizacje/
 projects:
-  - name: Kampania Social Media - GreenWave
+  - name: Reklama zewnętrzna
     description: "Kompleksowa kampania social media dla marki ekologicznej: strategia komunikacji, produkcja kreacji i optymalizacja wynikow."
     gallery:
       - image: "https://picsum.photos/id/1059/1200/800"
@@ -12,7 +12,7 @@ projects:
         alt: "Projekt GreenWave - kreacja 2"
       - image: "https://picsum.photos/id/1061/1200/800"
         alt: "Projekt GreenWave - kreacja 3"
-  - name: Rebranding Strony - NovaTech
+  - name: Poligrafia
     description: "Odnowienie identyfikacji wizualnej i strony internetowej firmy technologicznej, z naciskiem na nowoczesny UX i czytelna nawigacje."
     gallery:
       - image: "https://picsum.photos/id/180/1200/800"
@@ -21,7 +21,34 @@ projects:
         alt: "Projekt NovaTech - widok strony 2"
       - image: "https://picsum.photos/id/20/1200/800"
         alt: "Projekt NovaTech - widok strony 3"
-  - name: Kampania SEO - LocalBoost
+  - name: Gadżety reklamowe
+    description: "Wdrozenie strategii SEO dla lokalnej firmy uslugowej: analiza fraz, optymalizacja tresci i poprawa widocznosci organicznej."
+    gallery:
+      - image: "https://picsum.photos/id/201/1200/800"
+        alt: "Projekt LocalBoost - analiza i raport 1"
+      - image: "https://picsum.photos/id/202/1200/800"
+        alt: "Projekt LocalBoost - analiza i raport 2"
+      - image: "https://picsum.photos/id/203/1200/800"
+        alt: "Projekt LocalBoost - analiza i raport 3"
+  - name: Odzież z nadrukami
+    description: "Wdrozenie strategii SEO dla lokalnej firmy uslugowej: analiza fraz, optymalizacja tresci i poprawa widocznosci organicznej."
+    gallery:
+      - image: "https://picsum.photos/id/201/1200/800"
+        alt: "Projekt LocalBoost - analiza i raport 1"
+      - image: "https://picsum.photos/id/202/1200/800"
+        alt: "Projekt LocalBoost - analiza i raport 2"
+      - image: "https://picsum.photos/id/203/1200/800"
+        alt: "Projekt LocalBoost - analiza i raport 3"
+  - name: Oklejanie samochodów
+    description: "Wdrozenie strategii SEO dla lokalnej firmy uslugowej: analiza fraz, optymalizacja tresci i poprawa widocznosci organicznej."
+    gallery:
+      - image: "https://picsum.photos/id/201/1200/800"
+        alt: "Projekt LocalBoost - analiza i raport 1"
+      - image: "https://picsum.photos/id/202/1200/800"
+        alt: "Projekt LocalBoost - analiza i raport 2"
+      - image: "https://picsum.photos/id/203/1200/800"
+        alt: "Projekt LocalBoost - analiza i raport 3"
+  - name: Słodycze reklamowe
     description: "Wdrozenie strategii SEO dla lokalnej firmy uslugowej: analiza fraz, optymalizacja tresci i poprawa widocznosci organicznej."
     gallery:
       - image: "https://picsum.photos/id/201/1200/800"

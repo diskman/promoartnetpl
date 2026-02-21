@@ -60,8 +60,8 @@
       </a>
       <nav class="space-x-6">
         <a href="{{ '/' | relative_url }}" {% if current_url == '/' %}aria-current="page"{% endif %} class="{% if current_url == '/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Home</a>
-        <a href="{{ '/portfolio/' | relative_url }}" {% if current_url == '/portfolio/' %}aria-current="page"{% endif %} class="{% if current_url == '/portfolio/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Portfolio</a>
-        <a href="{{ '/products/' | relative_url }}" {% if current_url == '/products/' %}aria-current="page"{% endif %} class="{% if current_url == '/products/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Produkty</a>
+        <a href="{{ '/oferta/' | relative_url }}" {% if current_url == '/oferta/' %}aria-current="page"{% endif %} class="{% if current_url == '/oferta/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Oferta</a>
+        <a href="{{ '/realizacje/' | relative_url }}" {% if current_url == '/realizacje/' %}aria-current="page"{% endif %} class="{% if current_url == '/realizacje/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Realizacje</a>        
         <a href="{{ '/about/' | relative_url }}" {% if current_url == '/about/' %}aria-current="page"{% endif %} class="{% if current_url == '/about/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">About</a>
         <a href="{{ '/contact/' | relative_url }}" {% if current_url == '/contact/' %}aria-current="page"{% endif %} class="{% if current_url == '/contact/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Contact</a>
         <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle color theme" aria-pressed="false">
@@ -77,6 +77,27 @@
 
   <footer class="bg-white border-t border-gray-200 py-8">
     <div class="max-w-4xl mx-auto px-4 text-center text-gray-500 text-sm">
+      <p class="mb-4 text-gray-500 text-xs uppercase tracking-wider">Klienci</p>
+      <div class="clients-marquee" aria-label="Lista klientów">
+        <div class="clients-marquee__track">
+          <div class="clients-marquee__group">
+            <img src="{{ '/assets/img/refereces/novatrade.svg' | relative_url }}" alt="NovaTrade" loading="lazy">
+            <img src="{{ '/assets/img/refereces/greenpeak.svg' | relative_url }}" alt="GreenPeak" loading="lazy">
+            <img src="{{ '/assets/img/refereces/urbancode.svg' | relative_url }}" alt="UrbanCode" loading="lazy">
+            <img src="{{ '/assets/img/refereces/silverline.svg' | relative_url }}" alt="SilverLine" loading="lazy">
+            <img src="{{ '/assets/img/refereces/dataforge.svg' | relative_url }}" alt="DataForge" loading="lazy">
+            <img src="{{ '/assets/img/refereces/metrobuild.svg' | relative_url }}" alt="MetroBuild" loading="lazy">
+          </div>
+          <div class="clients-marquee__group" aria-hidden="true">
+            <img src="{{ '/assets/img/refereces/novatrade.svg' | relative_url }}" alt="">
+            <img src="{{ '/assets/img/refereces/greenpeak.svg' | relative_url }}" alt="">
+            <img src="{{ '/assets/img/refereces/urbancode.svg' | relative_url }}" alt="">
+            <img src="{{ '/assets/img/refereces/silverline.svg' | relative_url }}" alt="">
+            <img src="{{ '/assets/img/refereces/dataforge.svg' | relative_url }}" alt="">
+            <img src="{{ '/assets/img/refereces/metrobuild.svg' | relative_url }}" alt="">
+          </div>
+        </div>
+      </div>
       &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. Built with Jekyll, Tailwind CSS & Docker.
     </div>
   </footer>

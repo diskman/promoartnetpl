@@ -274,3 +274,56 @@ html.dark .cookie-btn--reject:hover {
 .cookie-banner[hidden] {
   display: none !important;
 }
+
+.clients-marquee {
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 0.75rem 0;
+  mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+}
+
+.clients-marquee__track {
+  display: flex;
+  width: max-content;
+  animation: clients-marquee-scroll 34s linear infinite;
+}
+
+.clients-marquee__group {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.clients-marquee__group img {
+  height: 32px;
+  width: auto;
+  margin-right: 1.25rem;
+  filter: grayscale(100%);
+  opacity: 0.9;
+}
+
+html.dark .clients-marquee {
+  border-color: #334155;
+}
+
+html.dark .clients-marquee__group img {
+  opacity: 0.85;
+}
+
+@keyframes clients-marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .clients-marquee__track {
+    animation: none;
+  }
+}

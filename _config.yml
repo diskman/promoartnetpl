@@ -23,7 +23,6 @@ exclude:
   - README.md
 
 collections:
-  products:
+  oferta:
     output: true
-    permalink: /products/:name/
-
+    permalink: /oferta/:name/

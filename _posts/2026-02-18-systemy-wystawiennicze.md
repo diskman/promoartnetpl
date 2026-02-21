@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Search Engine Optimization & Visibility"
-description: "Boosting organic traffic and search engine rankings through technical and content SEO."
+title: "Systemy wystawiennicze"
+description: "Ścianki reklamowe, rollup itd"
 date: 2026-02-18 11:00:00 +0000
 gallery:
   - image: "https://images.unsplash.com/photo-1571721795195-a2ca2d3370a9?auto=format&fit=crop&w=800&q=80"

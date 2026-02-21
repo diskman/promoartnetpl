@@ -1,9 +1,9 @@
 ---
-layout: product
-title: Branding i identyfikacja wizualna
+layout: oferta-item
+title: Strony internetowe
 category: Branding
 price: od 4200 zl
-tagline: Pelna identyfikacja wizualna, ktora nada Twojej marce profesjonalny i zapamietywalny wyglad.
+tagline: Nowoczesne strony interntowe dla Twojej firmy.
 image: /assets/img/products/produkt-branding.svg
 features:
   - title: Logo i warianty

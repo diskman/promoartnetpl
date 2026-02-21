@@ -10,12 +10,12 @@ layout: default
     {% endif %}
   </header>
 
-  {% assign products = site.products | default: site.collections['products'].docs %}
-  {% assign products_count = products | size %}
+  {% assign oferta_items = site.oferta | default: site.collections['oferta'].docs %}
+  {% assign oferta_count = oferta_items | size %}
 
-  {% if products_count > 0 %}
+  {% if oferta_count > 0 %}
   <div class="grid md:grid-cols-2 gap-8">
-    {% for product in products %}
+    {% for product in oferta_items %}
     <a href="{{ product.url | relative_url }}" class="group rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden transition hover:shadow-xl">
       <div class="relative aspect-video bg-gray-100 overflow-hidden">
         {% if product.price %}
@@ -36,7 +36,7 @@ layout: default
   </div>
   {% else %}
   <div class="border border-gray-200 rounded-2xl bg-white p-6 text-gray-600">
-    Brak produktow do wyswietlenia. Jesli dopiero dodales kolekcje, uruchom ponownie serwer Jekyll.
+    Brak ofert do wyswietlenia. Jesli dopiero dodales kolekcje, uruchom ponownie serwer Jekyll.
   </div>
   {% endif %}
 </section>

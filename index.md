@@ -3,18 +3,15 @@ layout: home
 title: Welcome to My Jekyll Site!
 ---
 
-<div class="bg-blue-600 text-white rounded-2xl p-8 mb-16 shadow-lg">
-  <h1 class="text-4xl md:text-5xl font-extrabold mb-4 text-center">Promoart</h1>
-  <p class="text-xl opacity-90 leading-relaxed text-center max-w-2xl mx-auto">
-    We help brands grow through innovative digital strategies, creative content, and data-driven insights.
-  </p>
+<div class="rounded-2xl mb-16 shadow-lg overflow-hidden">
+  <img src="{{ '/assets/img/banner.png' | relative_url }}" alt="Promoart banner" class="w-full h-auto object-cover">
 </div>
 
 <section class="mb-20">
   <div class="flex justify-between items-end mb-10">
     <div>
-      <h2 class="text-3xl font-bold text-gray-900">Usługi reklamowe</h2>
-      <p class="text-gray-500 mt-2">Explore our latest projects and service offerings.</p>
+      <h2 class="text-3xl font-bold text-gray-900">Aktualności i promocje</h2>
+      <p class="text-gray-500 mt-2">Zapoznaj się z najnowszymi promocjami w naszej ofercie</p>
     </div>
   </div>
 
@@ -38,10 +35,7 @@ title: Welcome to My Jekyll Site!
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </h3>
         <p class="text-gray-600 mb-6 line-clamp-2">{{ post.description }}</p>
-        <a href="{{ post.url | relative_url }}" class="inline-flex items-center text-blue-600 font-bold hover:gap-2 transition-all">
-          Read Case Study
-          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-        </a>
+        
       </div>
     </article>
     {% endfor %}
