@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="60" viewBox="0 0 180 60" role="img" aria-labelledby="title desc">
+  <title id="title">Maxtel Kielce</title>
+  <desc id="desc">Tymczasowe logo Maxtel Kielce w odcieniach szarosci</desc>
+  <rect width="180" height="60" rx="10" fill="#f3f4f6"/>
+  <path d="M20 40V20h4l6 8 6-8h4v20h-4V27l-6 8-6-8v13z" fill="#4b5563"/>
+  <text x="58" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#4b5563">MAXTEL</text>
+</svg>
