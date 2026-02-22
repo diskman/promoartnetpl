@@ -77,23 +77,18 @@
   <footer class="bg-white border-t border-gray-200 py-8">
     <div class="site-shell text-center text-gray-500 text-sm">
       <p class="mb-4 text-gray-500 text-xs uppercase tracking-wider">Klienci</p>
+      {% assign client_logos = site.static_files | where_exp: "f", "f.path contains '/assets/img/refereces/'" | where_exp: "f", "f.extname == '.png' or f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.webp' or f.extname == '.svg'" | sort: "name" %}
       <div class="clients-marquee" aria-label="Lista klientów">
         <div class="clients-marquee__track">
           <div class="clients-marquee__group">
-            <img src="{{ '/assets/img/refereces/delkar.png' | relative_url }}" alt="Delkar" loading="lazy">
-            <img src="{{ '/assets/img/refereces/greenpeak.svg' | relative_url }}" alt="GreenPeak" loading="lazy">
-            <img src="{{ '/assets/img/refereces/urbancode.svg' | relative_url }}" alt="UrbanCode" loading="lazy">
-            <img src="{{ '/assets/img/refereces/silverline.svg' | relative_url }}" alt="SilverLine" loading="lazy">
-            <img src="{{ '/assets/img/refereces/dataforge.svg' | relative_url }}" alt="DataForge" loading="lazy">
-            <img src="{{ '/assets/img/refereces/maxtel.svg' | relative_url }}" alt="Maxtel Kielce" loading="lazy">
+            {% for logo in client_logos %}
+            <img src="{{ logo.path | relative_url }}" alt="{{ logo.name | split: '.' | first }}" loading="lazy">
+            {% endfor %}
           </div>
           <div class="clients-marquee__group" aria-hidden="true">
-            <img src="{{ '/assets/img/refereces/delkar.png' | relative_url }}" alt="">
-            <img src="{{ '/assets/img/refereces/greenpeak.svg' | relative_url }}" alt="">
-            <img src="{{ '/assets/img/refereces/urbancode.svg' | relative_url }}" alt="">
-            <img src="{{ '/assets/img/refereces/silverline.svg' | relative_url }}" alt="">
-            <img src="{{ '/assets/img/refereces/dataforge.svg' | relative_url }}" alt="">
-            <img src="{{ '/assets/img/refereces/maxtel.svg' | relative_url }}" alt="">
+            {% for logo in client_logos %}
+            <img src="{{ logo.path | relative_url }}" alt="{{ logo.name | split: '.' | first }}">
+            {% endfor %}
           </div>
         </div>
       </div>
