@@ -6,7 +6,7 @@ projects:
   - name: Reklama zewnętrzna
     description: "Kompleksowa kampania social media dla marki ekologicznej: strategia komunikacji, produkcja kreacji i optymalizacja wynikow."
     gallery:
-      - image: "https://picsum.photos/id/1059/1200/800"
+      - image: "/assets/img/oferta/folder.jpg"
         alt: "Projekt GreenWave - kreacja 1"
       - image: "https://picsum.photos/id/1060/1200/800"
         alt: "Projekt GreenWave - kreacja 2"

@@ -5,7 +5,7 @@ order: 2
 category: 
 price: 
 tagline: Nowoczesne strony interntowe dla Twojej firmy.
-image: /assets/img/products/produkt-branding.svg
+image: /assets/img/oferta/folder.jpg
 features:
   - title: Logo i warianty
     text: Projekt znaku, wersje poziome i pionowe, przygotowanie do druku.
