@@ -1,8 +1,9 @@
 ---
 layout: oferta-item
-title: Strony internetowe
-category: Branding
-price: od 4200 zl
+title: Poligrafia
+order: 2
+category: 
+price: 
 tagline: Nowoczesne strony interntowe dla Twojej firmy.
 image: /assets/img/products/produkt-branding.svg
 features:

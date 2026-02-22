@@ -10,7 +10,7 @@ layout: default
     {% endif %}
   </header>
 
-  {% assign oferta_items = site.oferta | default: site.collections['oferta'].docs %}
+  {% assign oferta_items = site.oferta | default: site.collections['oferta'].docs | sort: 'order' %}
   {% assign oferta_count = oferta_items | size %}
 
   {% if oferta_count > 0 %}

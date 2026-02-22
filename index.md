@@ -4,7 +4,7 @@ title: Welcome to My Jekyll Site!
 ---
 
 <div class="rounded-2xl mb-16 shadow-lg overflow-hidden">
-  <img src="{{ '/assets/img/banner.png' | relative_url }}" alt="Promoart banner" class="w-full h-auto object-cover">
+  <img src="{{ '/assets/img/banner2.png' | relative_url }}" alt="Promoart banner" class="w-full h-auto object-cover">
 </div>
 
 <section class="mb-20">

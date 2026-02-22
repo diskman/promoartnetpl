@@ -1,8 +1,9 @@
 ---
 layout: oferta-item
-title: Pakiet Startowy Social Media
-category: Social Media
-price: od 99zł
+title: Gadżety reklamowe
+order: 3
+category: 
+price: 
 promo: true
 tagline: Kompletny start dla marek, ktore chca regularnie publikowac i budowac spojnosc w mediach spolecznosciowych.
 image: /assets/img/products/produkt-social.svg
