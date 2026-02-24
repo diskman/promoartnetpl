@@ -1591,7 +1591,7 @@ html.dark .cookie-btn--reject:hover {
 }
 
 .clients-marquee__group img {
-  height: 32px;
+  height: 64px;
   width: auto;
   margin-right: 1.25rem;
   filter: grayscale(100%);
