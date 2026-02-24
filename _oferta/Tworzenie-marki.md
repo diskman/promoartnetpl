@@ -1,7 +1,7 @@
 ---
 layout: oferta-item
-title: Gadżety reklamowe
-order: 3
+title: Tworzenie marki
+order: 7
 category: 
 price: 
 promo: true

@@ -5,12 +5,12 @@ order: 1
 category: 
 price: 
 promo: true
-tagline: Kompletny start dla marek, ktore chca regularnie publikowac i budowac spojnosc w mediach spolecznosciowych.
-image: /assets/img/products/produkt-social.svg
+tagline: Reklama wizualna to jeden z najskuteczniejszych sposobów budowania rozpoznawalności marki i docierania do klientów. Tworzymy projekty, które nie tylko wyglądają efektownie, ale przede wszystkim realizują konkretne cele biznesowe.
+image: /assets/img/oferta/wizualna.png
 features:
-  - title: Strategia i plan tresci
+  - title: INDOOR REKLAMA WE WNĘTRZACH
     text: Audyt profilu, propozycja kierunku komunikacji i kalendarz na 30 dni.
-  - title: Kreacje graficzne
+  - title: OUTDOOR REKLAMA ZEWNĄTRZNA
     text: 12 dedykowanych postow z przygotowanymi tekstami i formatami.
   - title: Pakiet startowy reklam
     text: Ustawienie kampanii i rekomendacje budzetowe.
@@ -18,6 +18,15 @@ features:
     text: Podsumowanie wynikow z kluczowymi wnioskami.
 ---
 
-Ten pakiet jest idealny dla firm, ktore chca szybko uporzadkowac swoje social media i zaczac publikowac tresci, ktore faktycznie przyciagaja klientow.
 
-W ramach wspolpracy przygotowujemy zestaw postow, dopasowujemy ton komunikacji i ustawiamy pierwsze dzialania reklamowe, aby od razu zobaczyc efekty.
+
+Banery reklamowe, Billboardy, Siatki mesh
+Kasetony, Szyldy,
+Pylony, 
+Oklejanie witryn, 
+Scianki wystawiennicze,
+Rollapy
+Flagi
+Litery przesytrzenne podświetlane
+Namioty reklamowe, 
+Leżaki reklamowe

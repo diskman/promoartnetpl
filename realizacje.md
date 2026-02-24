@@ -4,54 +4,54 @@ title: Portfolio
 permalink: /realizacje/
 projects:
   - name: Reklama zewnętrzna
-    description: "Kompleksowa kampania social media dla marki ekologicznej: strategia komunikacji, produkcja kreacji i optymalizacja wynikow."
+    description: "Banery reklamowe, Billboardy, Siatki mesh, Kasetony, Szyldy, Pylony, Oklejanie witryn, Ścianki wystawiennicze, Rollapy, Flagi, Litery przesytrzenne podświetlane, Namioty reklamowe, Leżaki reklamowe"
     gallery:
-      - image: "/assets/img/oferta/folder.jpg"
+      - image: "/assets/img/portfolio/baner1.jpg"
         alt: "Projekt GreenWave - kreacja 1"
-      - image: "https://picsum.photos/id/1060/1200/800"
+      - image: "/assets/img/portfolio/Flaga_radioem.jpg"
         alt: "Projekt GreenWave - kreacja 2"
-      - image: "https://picsum.photos/id/1061/1200/800"
+      - image: "/assets/img/portfolio/DentLove_scianka.jpg"
         alt: "Projekt GreenWave - kreacja 3"
   - name: Poligrafia
     description: "Odnowienie identyfikacji wizualnej i strony internetowej firmy technologicznej, z naciskiem na nowoczesny UX i czytelna nawigacje."
     gallery:
-      - image: "https://picsum.photos/id/180/1200/800"
+      - image: "/assets/img/oferta/folder.jpg"
         alt: "Projekt NovaTech - widok strony 1"
-      - image: "https://picsum.photos/id/48/1200/800"
+      - image: "/assets/img/portfolio/ulotka_a5.jpg"
         alt: "Projekt NovaTech - widok strony 2"
-      - image: "https://picsum.photos/id/20/1200/800"
+      - image: "/assets/img/portfolio/Voucher.jpg"
         alt: "Projekt NovaTech - widok strony 3"
   - name: Gadżety reklamowe
     description: "Wdrozenie strategii SEO dla lokalnej firmy uslugowej: analiza fraz, optymalizacja tresci i poprawa widocznosci organicznej."
     gallery:
-      - image: "https://picsum.photos/id/201/1200/800"
+      - image: "/assets/img/portfolio/smycz.jpg"
         alt: "Projekt LocalBoost - analiza i raport 1"
-      - image: "https://picsum.photos/id/202/1200/800"
+      - image: "/assets/img/portfolio/otwieracz.jpg"
         alt: "Projekt LocalBoost - analiza i raport 2"
-      - image: "https://picsum.photos/id/203/1200/800"
+      - image: "/assets/img/portfolio/dlugopis.jpg"
         alt: "Projekt LocalBoost - analiza i raport 3"
   - name: Odzież z nadrukami
     description: "Wdrozenie strategii SEO dla lokalnej firmy uslugowej: analiza fraz, optymalizacja tresci i poprawa widocznosci organicznej."
     gallery:
-      - image: "https://picsum.photos/id/201/1200/800"
+      - image: "/assets/img/portfolio/thirt.jpg"
         alt: "Projekt LocalBoost - analiza i raport 1"
-      - image: "https://picsum.photos/id/202/1200/800"
+      - image: "/assets/img/portfolio/bluza.jpg"
         alt: "Projekt LocalBoost - analiza i raport 2"
-      - image: "https://picsum.photos/id/203/1200/800"
+      - image: "/assets/img/portfolio/czapka_mostostal.jpg"
         alt: "Projekt LocalBoost - analiza i raport 3"
-  - name: Oklejanie samochodów
+  - name: Oklejanie pojazdów
     description: "Wdrozenie strategii SEO dla lokalnej firmy uslugowej: analiza fraz, optymalizacja tresci i poprawa widocznosci organicznej."
     gallery:
-      - image: "https://picsum.photos/id/201/1200/800"
+      - image: "/assets/img/portfolio/samochod_voster.png"
         alt: "Projekt LocalBoost - analiza i raport 1"
-      - image: "https://picsum.photos/id/202/1200/800"
+      - image: "/assets/img/portfolio/autobus.jpg"
         alt: "Projekt LocalBoost - analiza i raport 2"
-      - image: "https://picsum.photos/id/203/1200/800"
+      - image: "/assets/img/portfolio/cupra.jpg"
         alt: "Projekt LocalBoost - analiza i raport 3"
   - name: Słodycze reklamowe
     description: "Wdrozenie strategii SEO dla lokalnej firmy uslugowej: analiza fraz, optymalizacja tresci i poprawa widocznosci organicznej."
     gallery:
-      - image: "https://picsum.photos/id/201/1200/800"
+      - image: "/assets/img/portfolio/krowki.jpg"
         alt: "Projekt LocalBoost - analiza i raport 1"
       - image: "https://picsum.photos/id/202/1200/800"
         alt: "Projekt LocalBoost - analiza i raport 2"

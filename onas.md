@@ -11,7 +11,31 @@ permalink: /o-nas/
 
   <h3 class="text-2xl font-bold text-gray-900 mb-4 border-b pb-2">Who am I?</h3>
   <p class="mb-8">
-    I am a developer who loves building things with Jekyll and Docker. This setup is designed to be simple and easy to use on any machine, including Windows.
+   15 lat doświadczenia w budowaniu widocznych marek
+
+Od ponad 15 lat wspieramy firmy w skutecznej komunikacji wizualnej. Tworzymy reklamę, która nie tylko przyciąga uwagę, ale przede wszystkim realnie wspiera sprzedaż i buduje rozpoznawalność marki.
+
+Nasza firma powstała z pasji do designu i marketingu. Przez lata zrealizowaliśmy setki projektów – od lokalnych realizacji po kompleksowe wdrożenia dla rozwijających się przedsiębiorstw. Łączymy kreatywność z praktycznym podejściem do biznesu, dzięki czemu nasze projekty są estetyczne, funkcjonalne i skuteczne.
+
+Co nas wyróżnia?
+
+✔️ 15 lat doświadczenia w branży reklamowej
+✔️ Kompleksowa obsługa – od projektu po realizację i montaż
+✔️ Indywidualne podejście do każdego klienta
+✔️ Terminowość i dbałość o detale
+✔️ Nowoczesne rozwiązania dopasowane do rynku
+
+Tworzymy reklamę, która działa
+
+Specjalizujemy się w reklamie wizualnej – od projektowania logo i identyfikacji wizualnej, przez materiały drukowane, po reklamę zewnętrzną i oklejanie pojazdów.
+
+Wiemy, że dobra reklama to nie tylko estetyka, ale przede wszystkim przemyślana strategia i zrozumienie potrzeb klienta. Dlatego każdy projekt rozpoczynamy od rozmowy i analizy, aby finalny efekt był dokładnie taki, jakiego oczekujesz – a nawet lepszy.
+
+Zaufanie budowane latami
+
+Największą wartością naszej firmy są długofalowe relacje z klientami. Wielu z nich współpracuje z nami od lat, powierzając nam kolejne projekty i polecając nasze usługi innym.
+
+Dziękujemy za zaufanie – i zapraszamy do współpracy.
   </p>
 
   <div class="grid gap-6 md:grid-cols-2">

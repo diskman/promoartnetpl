@@ -1,12 +1,12 @@
 ---
 layout: oferta-item
-title: Gadżety reklamowe
-order: 3
+title: Słodycze reklamowe
+order: 6
 category: 
 price: 
 promo: true
 tagline: Kompletny start dla marek, ktore chca regularnie publikowac i budowac spojnosc w mediach spolecznosciowych.
-image: /assets/img/oferta/gadzety.png
+image: /assets/img/oferta/slodycze.png
 features:
   - title: Strategia i plan tresci
     text: Audyt profilu, propozycja kierunku komunikacji i kalendarz na 30 dni.
