@@ -1314,6 +1314,28 @@ video {
   transition: background-color 0.25s ease, backdrop-filter 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
+.site-header nav a {
+  text-transform: uppercase !important;
+}
+
+/* Menu color overrides: keep HTML classes untouched, render nav in red palette */
+.site-header nav a.text-blue-600 {
+  color: #dc2626 !important;
+}
+
+.site-header nav a.bg-blue-50 {
+  background-color: #fef2f2 !important;
+}
+
+.site-header nav a.border-blue-300 {
+  border-color: #fca5a5 !important;
+}
+
+.site-header nav a.hover\:text-blue-600:hover,
+.site-header nav a.hover\:text-blue-700:hover {
+  color: #dc2626 !important;
+}
+
 .site-header.is-scrolled {
   background-color: rgba(255, 255, 255, 0.82);
   backdrop-filter: blur(10px);
@@ -1437,6 +1459,18 @@ html.dark a[aria-current='page'] {
   color: #bfdbfe !important;
   background-color: rgba(30, 64, 175, 0.25) !important;
   border-color: rgba(96, 165, 250, 0.55) !important;
+}
+
+/* Dark mode menu overrides to red for hover and active states */
+html.dark .site-header nav a.hover\:text-blue-600:hover,
+html.dark .site-header nav a.hover\:text-blue-700:hover {
+  color: #fca5a5 !important;
+}
+
+html.dark .site-header nav a[aria-current='page'] {
+  color: #fecaca !important;
+  background-color: rgba(153, 27, 27, 0.25) !important;
+  border-color: rgba(248, 113, 113, 0.55) !important;
 }
 
 html.dark .theme-toggle {

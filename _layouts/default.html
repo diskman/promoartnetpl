@@ -58,7 +58,7 @@
       <a href="{{ '/' | relative_url }}" class="inline-flex items-center" aria-label="{{ site.title }}">
         <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="{{ site.title }}" class="h-12" style="width: auto;  height: 100px;">
       </a>
-      <nav class="space-x-6">
+      <nav class="space-x-6 uppercase">
         <a href="{{ '/oferta/' | relative_url }}" {% if current_url == '/oferta/' %}aria-current="page"{% endif %} class="{% if current_url == '/oferta/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Oferta</a>
         <a href="{{ '/realizacje/' | relative_url }}" {% if current_url == '/realizacje/' %}aria-current="page"{% endif %} class="{% if current_url == '/realizacje/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Realizacje</a>        
         <a href="{{ '/o-nas/' | relative_url }}" {% if current_url == '/o-nas/' %}aria-current="page"{% endif %} class="{% if current_url == '/onas/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">O nas</a>
