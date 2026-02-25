@@ -6,7 +6,10 @@ layout: default
   <header class="mb-8">
     <h1 class="text-4xl font-extrabold text-gray-900 mb-4">{{ page.title }}</h1>
     {% if page.description %}
-    <p class="text-lg text-gray-600">{{ page.description }}</p>
+    {% assign oferta_description_colored = page.description
+      | replace: 'Poznaj', '<span class="oferta-description-black">Poznaj</span>'
+      | replace: 'nasze pakiety i produkty', '<span class="oferta-description-red">nasze pakiety i produkty</span>' %}
+    <p class="oferta-description">{{ oferta_description_colored }}</p>
     {% endif %}
   </header>
 

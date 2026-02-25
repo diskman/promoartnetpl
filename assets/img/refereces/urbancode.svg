@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="180" height="60" viewBox="0 0 180 60" role="img" aria-labelledby="title desc">
-  <title id="title">UrbanCode</title>
-  <desc id="desc">Logo UrbanCode w odcieniach szarosci</desc>
-  <rect width="180" height="60" rx="10" fill="#f3f4f6"/>
-  <rect x="20" y="18" width="28" height="24" rx="4" fill="#6b7280"/>
-  <rect x="26" y="24" width="16" height="12" rx="2" fill="#e5e7eb"/>
-  <text x="58" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#4b5563">UrbanCode</text>
-</svg>

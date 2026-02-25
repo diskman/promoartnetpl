@@ -5,19 +5,25 @@ order: 6
 category: 
 price: 
 promo: true
-tagline: Kompletny start dla marek, ktore chca regularnie publikowac i budowac spojnosc w mediach spolecznosciowych.
+tagline: Słodycze reklamowe to smaczny i skuteczny sposób na promocję marki. Czekoladki, krówki, cukierki czy zestawy upominkowe z logo firmy to miły gest, który buduje pozytywne skojarzenia i zapada w pamięć.
 image: /assets/img/oferta/slodycze.png
+icon_features: true
 features:
-  - title: Strategia i plan tresci
-    text: Audyt profilu, propozycja kierunku komunikacji i kalendarz na 30 dni.
-  - title: Kreacje graficzne
-    text: 12 dedykowanych postow z przygotowanymi tekstami i formatami.
-  - title: Pakiet startowy reklam
-    text: Ustawienie kampanii i rekomendacje budzetowe.
-  - title: Raport miesieczny
-    text: Podsumowanie wynikow z kluczowymi wnioskami.
+  - title: KRÓWKI / CZEKOLADKI
+    icon: indoor
+    link: /realizacje/slodycze-reklamowe/#krowki-czekoladki
+    text: 
+  - title: KOSZE ŚWIĄTECZNE
+    icon: outdoor
+    link: /realizacje/slodycze-reklamowe/#kosze-swiateczne
+    text: 
+  - title: LIZAKI / SŁODYCZE
+    icon: pakiet
+    link: /realizacje/slodycze-reklamowe/#lizaki-slodycze
+    text: 
+  - title: INNE
+    icon: raport
+    link: /realizacje/slodycze-reklamowe/#inne
+    text: 
 ---
 
-Ten pakiet jest idealny dla firm, ktore chca szybko uporzadkowac swoje social media i zaczac publikowac tresci, ktore faktycznie przyciagaja klientow.
-
-W ramach wspolpracy przygotowujemy zestaw postow, dopasowujemy ton komunikacji i ustawiamy pierwsze dzialania reklamowe, aby od razu zobaczyc efekty.

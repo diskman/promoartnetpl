@@ -4,30 +4,22 @@ title: O nas
 permalink: /o-nas/
 ---
 
-<div class="bg-white rounded-2xl p-10 border border-gray-100 shadow-sm leading-relaxed text-lg text-gray-700">
+<div class="onas-page bg-white rounded-2xl p-10 border border-gray-100 shadow-sm leading-relaxed text-lg text-gray-700">
   <p class="mb-6">
-    This is the <strong>About Me</strong> page. You can customize this page to tell your story.
+   
   </p>
 
-  <h3 class="text-2xl font-bold text-gray-900 mb-4 border-b pb-2">Who am I?</h3>
+  <h3 class="text-2xl font-bold text-gray-900 mb-4 border-b pb-2">Kim jesteśmy</h3>
   <p class="mb-8">
-   15 lat doświadczenia w budowaniu widocznych marek
+Agencja Reklamowa <strong>PromoArt</strong> 
 
-Od ponad 15 lat wspieramy firmy w skutecznej komunikacji wizualnej. Tworzymy reklamę, która nie tylko przyciąga uwagę, ale przede wszystkim realnie wspiera sprzedaż i buduje rozpoznawalność marki.
+przez ponad 15 lat wspieramy firmy w skutecznej komunikacji wizualnej. Tworzymy reklamę, która nie tylko przyciąga uwagę, ale przede wszystkim realnie wspiera sprzedaż i buduje rozpoznawalność marki.
 
 Nasza firma powstała z pasji do designu i marketingu. Przez lata zrealizowaliśmy setki projektów – od lokalnych realizacji po kompleksowe wdrożenia dla rozwijających się przedsiębiorstw. Łączymy kreatywność z praktycznym podejściem do biznesu, dzięki czemu nasze projekty są estetyczne, funkcjonalne i skuteczne.
-
-Co nas wyróżnia?
-
-✔️ 15 lat doświadczenia w branży reklamowej
-✔️ Kompleksowa obsługa – od projektu po realizację i montaż
-✔️ Indywidualne podejście do każdego klienta
-✔️ Terminowość i dbałość o detale
-✔️ Nowoczesne rozwiązania dopasowane do rynku
-
-Tworzymy reklamę, która działa
-
-Specjalizujemy się w reklamie wizualnej – od projektowania logo i identyfikacji wizualnej, przez materiały drukowane, po reklamę zewnętrzną i oklejanie pojazdów.
+<br>
+<br><strong class="onas-slogan"><span class="onas-slogan-red"><strong>Tworzymy reklamę,</strong></span> <span class="onas-slogan-black">która działa</span></strong>
+<br>
+<br>Specjalizujemy się w reklamie wizualnej – od projektowania logo i identyfikacji wizualnej, przez materiały drukowane, po reklamę zewnętrzną i oklejanie pojazdów.
 
 Wiemy, że dobra reklama to nie tylko estetyka, ale przede wszystkim przemyślana strategia i zrozumienie potrzeb klienta. Dlatego każdy projekt rozpoczynamy od rozmowy i analizy, aby finalny efekt był dokładnie taki, jakiego oczekujesz – a nawet lepszy.
 
@@ -40,20 +32,20 @@ Dziękujemy za zaufanie – i zapraszamy do współpracy.
 
   <div class="grid gap-6 md:grid-cols-2">
     <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-      <h4 class="font-bold text-gray-900 mb-2">Modern Styling</h4>
-      <p class="text-sm text-gray-600">Powered by <strong>Tailwind CSS</strong> for a clean and professional look.</p>
+      <h4 class="font-bold text-gray-900 mb-2">01.</h4>
+      <p class="text-sm text-gray-600">Doświadczeni <strong>Zbuduj</strong> z nami swoja markę.</p>
     </div>
     <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-      <h4 class="font-bold text-gray-900 mb-2">Docker-First</h4>
-      <p class="text-sm text-gray-600">No need to install Ruby on your host machine. Everything is contained.</p>
+      <h4 class="font-bold text-gray-900 mb-2">02.</h4>
+      <p class="text-sm text-gray-600">Kompleksowa obsługa – od projektu po realizację i montaż </p>
     </div>
     <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-      <h4 class="font-bold text-gray-900 mb-2">Live Reload</h4>
-      <p class="text-sm text-gray-600">See your changes instantly as you edit. Development made easy.</p>
+      <h4 class="font-bold text-gray-900 mb-2">03.</h4>
+      <p class="text-sm text-gray-600">Indywidualne podejście do każdego klienta</p>
     </div>
     <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-      <h4 class="font-bold text-gray-900 mb-2">Minimalist</h4>
-      <p class="text-sm text-gray-600">Clean structure with only the essential dependencies.</p>
+      <h4 class="font-bold text-gray-900 mb-2">04.</h4>
+      <p class="text-sm text-gray-600">Terminowość i dbałość o detale</p>
     </div>
   </div>
 </div>

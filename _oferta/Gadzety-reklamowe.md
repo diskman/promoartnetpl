@@ -5,19 +5,40 @@ order: 3
 category: 
 price: 
 promo: true
-tagline: Kompletny start dla marek, ktore chca regularnie publikowac i budowac spojnosc w mediach spolecznosciowych.
+tagline: Gadżety reklamowe to praktyczne i atrakcyjne upominki z logo firmy, które skutecznie wspierają promocję marki. Długopisy, notesy, kubki, torby czy pendrive’y pomagają budować rozpoznawalność i utrwalać pozytywny wizerunek w codziennym kontakcie z klientem.
 image: /assets/img/oferta/gadzety.png
+icon_features: true
 features:
-  - title: Strategia i plan tresci
-    text: Audyt profilu, propozycja kierunku komunikacji i kalendarz na 30 dni.
-  - title: Kreacje graficzne
-    text: 12 dedykowanych postow z przygotowanymi tekstami i formatami.
-  - title: Pakiet startowy reklam
-    text: Ustawienie kampanii i rekomendacje budzetowe.
-  - title: Raport miesieczny
-    text: Podsumowanie wynikow z kluczowymi wnioskami.
+  - title: GADŻETY BIUROWE / PIŚMIENNICZE
+    icon: indoor
+    link: /realizacje/gadzety-reklamowe/#gadzety-biurowe-pismiennicze
+    text: 
+  - title: KUBKI, BUTELKI, BIDONY
+    icon: outdoor
+    link: /realizacje/gadzety-reklamowe/#kubki-butelki-bidony
+    text: 
+  - title: TORBY, PLECAKI, KOSZE
+    icon: pakiet
+    link: /realizacje/gadzety-reklamowe/#torby-plecaki-kosze
+    text: 
+  - title: GADŻETY DLA DZIECI
+    icon: raport
+    link: /realizacje/gadzety-reklamowe/#gadzety-dla-dzieci
+    text: 
+  - title: SMYCZE 
+    icon: indoor
+    link: /realizacje/gadzety-reklamowe/#smycze
+    text: 
+  - title: AKCESORIA ELEKTRONICZNE
+    icon: outdoor
+    link: /realizacje/gadzety-reklamowe/#akcesoria-elektroniczne
+    text: 
+  - title: PARASOLE I AKCESORIA PODROZNE
+    icon: pakiet
+    link: /realizacje/gadzety-reklamowe/#parasole-i-akcesoria-podrozne
+    text: 
+  - title: INNE
+    icon: raport
+    link: /realizacje/gadzety-reklamowe/#inne
+    text: 
 ---
-
-Ten pakiet jest idealny dla firm, ktore chca szybko uporzadkowac swoje social media i zaczac publikowac tresci, ktore faktycznie przyciagaja klientow.
-
-W ramach wspolpracy przygotowujemy zestaw postow, dopasowujemy ton komunikacji i ustawiamy pierwsze dzialania reklamowe, aby od razu zobaczyc efekty.

@@ -7,26 +7,24 @@ price:
 promo: true
 tagline: Reklama wizualna to jeden z najskuteczniejszych sposobów budowania rozpoznawalności marki i docierania do klientów. Tworzymy projekty, które nie tylko wyglądają efektownie, ale przede wszystkim realizują konkretne cele biznesowe.
 image: /assets/img/oferta/wizualna.png
+icon_features: true
 features:
-  - title: INDOOR REKLAMA WE WNĘTRZACH
-    text: Audyt profilu, propozycja kierunku komunikacji i kalendarz na 30 dni.
-  - title: OUTDOOR REKLAMA ZEWNĄTRZNA
-    text: 12 dedykowanych postow z przygotowanymi tekstami i formatami.
-  - title: Pakiet startowy reklam
-    text: Ustawienie kampanii i rekomendacje budzetowe.
-  - title: Raport miesieczny
-    text: Podsumowanie wynikow z kluczowymi wnioskami.
+  - title: ROLL UP, ŚCIANKI 
+    icon: indoor
+    link: /realizacje/reklama-zewnetrzna/#roll-up-scianki
+    text: 
+  - title: BANER, BILLBOARDY, SIATKI MESH, TABLICE
+    icon: outdoor
+    link: /realizacje/reklama-zewnetrzna/#baner-billboardy-siatki-mesh-tablice
+    text: 
+  - title: KASETONY, LITERY PRZESTRZENNE, PYLONY
+    icon: pakiet
+    link: /realizacje/reklama-zewnetrzna/#kasetony-litery-przestrzenne-pylony
+    text: 
+  - title: FLAGI, LEŻAKI, NAMIOTY
+    icon: raport
+    link: /realizacje/reklama-zewnetrzna/#flagi-lezaki-namioty
+    text: 
 ---
 
 
-
-Banery reklamowe, Billboardy, Siatki mesh
-Kasetony, Szyldy,
-Pylony, 
-Oklejanie witryn, 
-Scianki wystawiennicze,
-Rollapy
-Flagi
-Litery przesytrzenne podświetlane
-Namioty reklamowe, 
-Leżaki reklamowe

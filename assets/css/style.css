@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -1315,10 +1318,31 @@ video {
 }
 
 .site-header nav a {
+  font-family: "Montserrat", ui-sans-serif, system-ui, sans-serif;
   text-transform: uppercase !important;
 }
 
+/* Headings using text-4xl in main tabs/pages */
+.text-4xl {
+  font-family: "Outfit", ui-sans-serif, system-ui, sans-serif !important;
+  font-size: 56px !important;
+  text-transform: lowercase;
+}
+
+/* Headings using text-2xl in main tabs/pages */
+.text-2xl {
+  font-family: "Montserrat", ui-sans-serif, system-ui, sans-serif !important;
+  text-transform: uppercase;
+}
+
+/* Headings using text-3xl in main tabs/pages */
+.text-3xl {
+  font-family: "Montserrat", ui-sans-serif, system-ui, sans-serif !important;
+  text-transform: uppercase;
+}
+
 /* Menu color overrides: keep HTML classes untouched, render nav in red palette */
+
 .site-header nav a.text-blue-600 {
   color: #dc2626 !important;
 }
@@ -1333,7 +1357,143 @@ video {
 
 .site-header nav a.hover\:text-blue-600:hover,
 .site-header nav a.hover\:text-blue-700:hover {
+  color: #b91c1c !important;
+}
+
+.site-header nav a[aria-current='page'] {
   color: #dc2626 !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.oferta-description {
+  font-family: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 1.35;
+  color: #000000;
+}
+
+.oferta-description-black {
+  color: #000000;
+}
+
+.oferta-description-red {
+  color: #dc2626;
+}
+
+.realizacje-description {
+  font-family: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 1.35;
+  color: #000000;
+}
+
+.realizacje-description-black {
+  color: #000000;
+}
+
+.realizacje-description-red {
+  color: #dc2626;
+}
+
+.onas-page .text-gray-900 {
+  font-family: "Montserrat", ui-sans-serif, system-ui, sans-serif !important;
+  font-weight: 300 !important;
+  font-size: 200% !important;
+  color: #dc2626 !important;
+  text-align: center !important;
+}
+
+.onas-page .text-gray-600 {
+  font-family: "Montserrat", ui-sans-serif, system-ui, sans-serif !important;
+  font-weight: 300 !important;
+  font-size: 20px !important;
+  text-align: center !important;
+}
+
+.onas-slogan {
+  display: inline-block;
+  font-family: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 1.35;
+}
+
+.onas-slogan-red {
+  color: #dc2626;
+}
+
+.onas-slogan-black {
+  font-family: "Montserrat";
+  color: #000000;
+}
+
+.kontakt-page .kontakt-link:hover {
+  color: #dc2626 !important;
+}
+
+.kontakt-page .kontakt-card--email:hover,
+.kontakt-page .kontakt-card--phone:hover,
+.kontakt-page .kontakt-card--facebook:hover {
+  border-color: #f87171 !important;
+}
+
+.clients-page-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.clients-page-item {
+  margin: 0;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  background: #ffffff;
+  min-height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.clients-page-item img {
+  max-height: 100px;
+  width: auto;
+  filter: none !important;
+  opacity: 1 !important;
+}
+
+.oferta-icons-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.oferta-icon {
+  color: #dc2626;
+}
+
+.oferta-icons-grid .oferta-icon {
+  color: #dc2626;
+}
+
+@media (max-width: 900px) {
+  .oferta-icons-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 1024px) {
+  .clients-page-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .clients-page-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 .site-header.is-scrolled {
@@ -1462,15 +1622,16 @@ html.dark a[aria-current='page'] {
 }
 
 /* Dark mode menu overrides to red for hover and active states */
+
 html.dark .site-header nav a.hover\:text-blue-600:hover,
 html.dark .site-header nav a.hover\:text-blue-700:hover {
-  color: #fca5a5 !important;
+  color: #fecaca !important;
 }
 
 html.dark .site-header nav a[aria-current='page'] {
   color: #fecaca !important;
-  background-color: rgba(153, 27, 27, 0.25) !important;
-  border-color: rgba(248, 113, 113, 0.55) !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
 }
 
 html.dark .theme-toggle {
@@ -1625,11 +1786,16 @@ html.dark .cookie-btn--reject:hover {
 }
 
 .clients-marquee__group img {
-  height: 32px;
+  height: 64px;
   width: auto;
   margin-right: 1.25rem;
   filter: grayscale(100%);
   opacity: 0.9;
+}
+
+/* Oferta list: "Zobacz szczegoly" label in red */
+a.group[href*="/oferta/"] span.inline-flex.items-center.text-blue-600.font-semibold {
+  color: #dc2626 !important;
 }
 
 html.dark .clients-marquee {

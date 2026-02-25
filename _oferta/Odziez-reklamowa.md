@@ -5,19 +5,24 @@ order: 4
 category: 
 price: 
 promo: true
-tagline: Kompletny start dla marek, ktore chca regularnie publikowac i budowac spojnosc w mediach spolecznosciowych.
+tagline: Odzież reklamowa to skuteczny sposób na budowanie rozpoznawalności marki i profesjonalnego wizerunku firmy. Koszulki, bluzy, czapki czy kurtki z logo sprawiają, że Twoja marka jest widoczna w codziennym otoczeniu – zarówno podczas pracy, eventów, jak i akcji promocyjnych.
 image: /assets/img/oferta/odziez.png
+icon_features: true
 features:
-  - title: Strategia i plan tresci
-    text: Audyt profilu, propozycja kierunku komunikacji i kalendarz na 30 dni.
-  - title: Kreacje graficzne
-    text: 12 dedykowanych postow z przygotowanymi tekstami i formatami.
-  - title: Pakiet startowy reklam
-    text: Ustawienie kampanii i rekomendacje budzetowe.
-  - title: Raport miesieczny
-    text: Podsumowanie wynikow z kluczowymi wnioskami.
+  - title: THIRTY, BLUZY, KURTKI
+    icon: indoor
+    link: /realizacje/odziez-z-nadrukami/#thirty-bluzy-kurtki
+    text: 
+  - title: CZAPKI
+    icon: outdoor
+    link: /realizacje/odziez-z-nadrukami/#czapki
+    text: 
+  - title: TORBY
+    icon: pakiet
+    link: /realizacje/odziez-z-nadrukami/#torby
+    text: 
+  - title: INNE
+    icon: raport
+    link: /realizacje/odziez-z-nadrukami/#inne
+    text: 
 ---
-
-Ten pakiet jest idealny dla firm, ktore chca szybko uporzadkowac swoje social media i zaczac publikowac tresci, ktore faktycznie przyciagaja klientow.
-
-W ramach wspolpracy przygotowujemy zestaw postow, dopasowujemy ton komunikacji i ustawiamy pierwsze dzialania reklamowe, aby od razu zobaczyc efekty.

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -39,10 +42,31 @@
 }
 
 .site-header nav a {
+  font-family: "Montserrat", ui-sans-serif, system-ui, sans-serif;
   text-transform: uppercase !important;
 }
 
+/* Headings using text-4xl in main tabs/pages */
+.text-4xl {
+  font-family: "Outfit", ui-sans-serif, system-ui, sans-serif !important;
+  font-size: 56px !important;
+  text-transform: lowercase;
+}
+
+/* Headings using text-2xl in main tabs/pages */
+.text-2xl {
+  font-family: "Montserrat", ui-sans-serif, system-ui, sans-serif !important;
+  text-transform: uppercase;
+}
+
+/* Headings using text-3xl in main tabs/pages */
+.text-3xl {
+  font-family: "Montserrat", ui-sans-serif, system-ui, sans-serif !important;
+  text-transform: uppercase;
+}
+
 /* Menu color overrides: keep HTML classes untouched, render nav in red palette */
+
 .site-header nav a.text-blue-600 {
   color: #dc2626 !important;
 }
@@ -57,7 +81,13 @@
 
 .site-header nav a.hover\:text-blue-600:hover,
 .site-header nav a.hover\:text-blue-700:hover {
+  color: #b91c1c !important;
+}
+
+.site-header nav a[aria-current='page'] {
   color: #dc2626 !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
 }
 
 .site-header.is-scrolled {
@@ -187,15 +217,16 @@ html.dark a[aria-current='page'] {
 }
 
 /* Dark mode menu overrides to red for hover and active states */
+
 html.dark .site-header nav a.hover\:text-blue-600:hover,
 html.dark .site-header nav a.hover\:text-blue-700:hover {
-  color: #fca5a5 !important;
+  color: #fecaca !important;
 }
 
 html.dark .site-header nav a[aria-current='page'] {
   color: #fecaca !important;
-  background-color: rgba(153, 27, 27, 0.25) !important;
-  border-color: rgba(248, 113, 113, 0.55) !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
 }
 
 html.dark .theme-toggle {
@@ -348,11 +379,16 @@ html.dark .cookie-btn--reject:hover {
 }
 
 .clients-marquee__group img {
-  height: 32px;
+  height: 64px;
   width: auto;
   margin-right: 1.25rem;
   filter: grayscale(100%);
   opacity: 0.9;
+}
+
+/* Oferta list: "Zobacz szczegoly" label in red */
+a.group[href*="/oferta/"] span.inline-flex.items-center.text-blue-600.font-semibold {
+  color: #dc2626 !important;
 }
 
 html.dark .clients-marquee {

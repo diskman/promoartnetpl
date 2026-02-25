@@ -4,7 +4,8 @@ title: Portfolio
 permalink: /realizacje/
 projects:
   - name: Reklama zewnętrzna
-    description: "Banery reklamowe, Billboardy, Siatki mesh, Kasetony, Szyldy, Pylony, Oklejanie witryn, Ścianki wystawiennicze, Rollapy, Flagi, Litery przesytrzenne podświetlane, Namioty reklamowe, Leżaki reklamowe"
+    url: /realizacje/reklama-zewnetrzna/
+    description: 
     gallery:
       - image: "/assets/img/portfolio/baner1.jpg"
         alt: "Projekt GreenWave - kreacja 1"
@@ -13,7 +14,8 @@ projects:
       - image: "/assets/img/portfolio/DentLove_scianka.jpg"
         alt: "Projekt GreenWave - kreacja 3"
   - name: Poligrafia
-    description: "Odnowienie identyfikacji wizualnej i strony internetowej firmy technologicznej, z naciskiem na nowoczesny UX i czytelna nawigacje."
+    url: /realizacje/poligrafia/
+    description: 
     gallery:
       - image: "/assets/img/oferta/folder.jpg"
         alt: "Projekt NovaTech - widok strony 1"
@@ -22,7 +24,8 @@ projects:
       - image: "/assets/img/portfolio/Voucher.jpg"
         alt: "Projekt NovaTech - widok strony 3"
   - name: Gadżety reklamowe
-    description: "Wdrozenie strategii SEO dla lokalnej firmy uslugowej: analiza fraz, optymalizacja tresci i poprawa widocznosci organicznej."
+    url: /realizacje/gadzety-reklamowe/
+    description: 
     gallery:
       - image: "/assets/img/portfolio/smycz.jpg"
         alt: "Projekt LocalBoost - analiza i raport 1"
@@ -31,7 +34,8 @@ projects:
       - image: "/assets/img/portfolio/dlugopis.jpg"
         alt: "Projekt LocalBoost - analiza i raport 3"
   - name: Odzież z nadrukami
-    description: "Wdrozenie strategii SEO dla lokalnej firmy uslugowej: analiza fraz, optymalizacja tresci i poprawa widocznosci organicznej."
+    url: /realizacje/odziez-z-nadrukami/
+    description: 
     gallery:
       - image: "/assets/img/portfolio/thirt.jpg"
         alt: "Projekt LocalBoost - analiza i raport 1"
@@ -39,8 +43,21 @@ projects:
         alt: "Projekt LocalBoost - analiza i raport 2"
       - image: "/assets/img/portfolio/czapka_mostostal.jpg"
         alt: "Projekt LocalBoost - analiza i raport 3"
+ 
+  - name: Słodycze reklamowe
+    url: /realizacje/slodycze-reklamowe/
+    description: 
+    gallery:
+      - image: "/assets/img/portfolio/krowki.jpg"
+        alt: "Projekt LocalBoost - analiza i raport 1"
+      - image: "/assets/img/portfolio/czekoladki.jpg"
+        alt: "Projekt LocalBoost - analiza i raport 2"
+      - image: "/assets/img/portfolio/wpc.jpg"
+        alt: "Projekt LocalBoost - analiza i raport 3"
+
   - name: Oklejanie pojazdów
-    description: "Wdrozenie strategii SEO dla lokalnej firmy uslugowej: analiza fraz, optymalizacja tresci i poprawa widocznosci organicznej."
+    url: /realizacje/oklejanie-pojazdow/
+    description: 
     gallery:
       - image: "/assets/img/portfolio/samochod_voster.png"
         alt: "Projekt LocalBoost - analiza i raport 1"
@@ -48,21 +65,12 @@ projects:
         alt: "Projekt LocalBoost - analiza i raport 2"
       - image: "/assets/img/portfolio/cupra.jpg"
         alt: "Projekt LocalBoost - analiza i raport 3"
-  - name: Słodycze reklamowe
-    description: "Wdrozenie strategii SEO dla lokalnej firmy uslugowej: analiza fraz, optymalizacja tresci i poprawa widocznosci organicznej."
-    gallery:
-      - image: "/assets/img/portfolio/krowki.jpg"
-        alt: "Projekt LocalBoost - analiza i raport 1"
-      - image: "https://picsum.photos/id/202/1200/800"
-        alt: "Projekt LocalBoost - analiza i raport 2"
-      - image: "https://picsum.photos/id/203/1200/800"
-        alt: "Projekt LocalBoost - analiza i raport 3"
 ---
 
 <section class="mb-16">
   <h1 class="text-4xl font-extrabold text-gray-900 mb-4">Portfolio</h1>
-  <p class="text-lg text-gray-600 leading-relaxed">
-    Lista wybranych realizacji. Kazdy projekt zawiera nazwe, opis oraz galerie.
+  <p class="realizacje-description leading-relaxed">
+   <span class="realizacje-description-black">Poznaj</span> <span class="realizacje-description-red">nasze dotychczasowe realizacje</span>
   </p>
 </section>
 
@@ -79,6 +87,11 @@ projects:
       <img src="{{ item.image }}" alt="{{ item.alt }}" class="object-cover w-full h-full transition duration-500 group-hover:scale-110">
     </figure>
     {% endfor %}
+  </div>
+  <div class="mt-6">
+    <a href="{{ project.url | relative_url }}" class="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700 transition">
+      Zobacz cala galerie
+    </a>
   </div>
 </section>
 {% endfor %}

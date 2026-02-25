@@ -5,19 +5,24 @@ order: 8
 category: 
 price: 
 promo: true
-tagline: Kompletny start dla marek, ktore chca regularnie publikowac i budowac spojnosc w mediach spolecznosciowych.
+tagline: Media cyfrowe to nowoczesne narzędzia komunikacji, które pozwalają skutecznie budować widoczność marki w internecie. Tworzymy atrakcyjne treści i projekty graficzne dopasowane do stron internetowych, mediów społecznościowych oraz kampanii reklamowych online.
 image: /assets/img/oferta/media.png
+icon_features: true
 features:
   - title: Strategia i plan tresci
+    icon: indoor
+    link: /realizacje/media-cyfrowe/#strategia-i-plan-tresci
     text: Audyt profilu, propozycja kierunku komunikacji i kalendarz na 30 dni.
   - title: Kreacje graficzne
+    icon: outdoor
+    link: /realizacje/media-cyfrowe/#kreacje-graficzne
     text: 12 dedykowanych postow z przygotowanymi tekstami i formatami.
   - title: Pakiet startowy reklam
+    icon: pakiet
+    link: /realizacje/media-cyfrowe/#pakiet-startowy-reklam
     text: Ustawienie kampanii i rekomendacje budzetowe.
   - title: Raport miesieczny
+    icon: raport
+    link: /realizacje/media-cyfrowe/#raport-miesieczny
     text: Podsumowanie wynikow z kluczowymi wnioskami.
 ---
-
-Ten pakiet jest idealny dla firm, ktore chca szybko uporzadkowac swoje social media i zaczac publikowac tresci, ktore faktycznie przyciagaja klientow.
-
-W ramach wspolpracy przygotowujemy zestaw postow, dopasowujemy ton komunikacji i ustawiamy pierwsze dzialania reklamowe, aby od razu zobaczyc efekty.

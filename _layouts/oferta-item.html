@@ -24,6 +24,36 @@ layout: default
   {% if page.features %}
   <section class="mt-10">
     <h2 class="text-2xl font-bold text-gray-900 mb-4">Co zawiera</h2>
+    {% if page.icon_features %}
+    <ul class="oferta-icons-grid gap-4">
+      {% for item in page.features %}
+      <li class="border border-gray-200 rounded-xl p-4 bg-white shadow-sm text-center">
+        <div class="oferta-icon w-12 h-12 mx-auto mb-3 rounded-full bg-gray-100 flex items-center justify-center">
+          {% case item.icon %}
+          {% when 'indoor' %}
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21h18M4 21V7a2 2 0 012-2h12a2 2 0 012 2v14M9 9h6m-6 4h6m-6 4h6"></path></svg>
+          {% when 'outdoor' %}
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 21V7m8 14V7M4 7h16l-1.5-3h-13L4 7z"></path></svg>
+          {% when 'pakiet' %}
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8 4-8-4m16 0l-8-4-8 4m16 0v10l-8 4-8-4V7"></path></svg>
+          {% when 'raport' %}
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-6m3 6V7m3 10v-3M5 21h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+          {% else %}
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" stroke-width="2"></circle></svg>
+          {% endcase %}
+        </div>
+        <p class="font-semibold text-gray-900 mb-1">
+          {% if item.link %}
+          <a href="{{ item.link | relative_url }}" class="hover:text-red-700 transition">{{ item.title }}</a>
+          {% else %}
+          {{ item.title }}
+          {% endif %}
+        </p>
+        <p class="text-gray-600 text-sm">{{ item.text }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
     <ul class="grid md:grid-cols-2 gap-4">
       {% for item in page.features %}
       <li class="border border-gray-200 rounded-xl p-4 bg-white shadow-sm">
@@ -32,6 +62,7 @@ layout: default
       </li>
       {% endfor %}
     </ul>
+    {% endif %}
   </section>
   {% endif %}
 
