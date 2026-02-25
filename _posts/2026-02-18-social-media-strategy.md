@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Strategic Social Media Management"
-description: "Elevating brand presence through data-driven content and engagement strategies."
+title: "FILIŻANKI I KUBKI"
+description: "Filiżanki i kubki z indywidualnym nadrukiem."
 date: 2026-02-18 10:00:00 +0000
 gallery:
-  - image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=800&q=80"
+  - image: "/assets/img/post/Oferta-filizanki.jpg"
     alt: "Social media dashboard"
     caption: "Real-time analytics tracking"
   - image: "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?auto=format&fit=crop&w=800&q=80"
@@ -15,13 +15,13 @@ gallery:
     caption: "Strategy brainstorming session"
 ---
 
-Our comprehensive social media management service focuses on building a meaningful connection between your brand and your audience. We don't just post content; we create experiences that drive engagement and conversions.
+Oferujemy wysokiej jakości porcelanowe filiżanki oraz kubki z indywidualnym nadrukiem, które łączą elegancję z funkcjonalnością. To doskonały wybór dla firm, kawiarni, restauracji oraz jako prestiżowy gadżet reklamowy czy upominek dla klientów i partnerów biznesowych.
+<br><br>
+Realizujemy nadruki logo, grafik, haseł reklamowych oraz projektów autorskich. Dbamy o trwałość znakowania i estetykę wykonania, tak aby produkt prezentował się profesjonalnie i zachowywał swoją jakość przez długi czas użytkowania.
+<br><br>
+Oferujemy wsparcie na każdym etapie – od przygotowania projektu, przez dobór odpowiedniego modelu filiżanki lub kubka, aż po finalną realizację. Stwórz z nami produkt, który będzie nie tylko praktyczny, ale również skutecznym nośnikiem Twojej marki.
 
-### Our Approach
 
-1. **Audit & Strategy**: We begin by analyzing your current social presence and defining clear, measurable goals.
-2. **Content Excellence**: Our team produces high-quality visuals and copy tailored to each platform's unique ecosystem.
-3. **Community Management**: We actively engage with your followers to build loyalty and trust.
-4. **Performance Reporting**: Monthly reports provide insights into what's working and how we can further optimize.
-
-Whether you're looking to increase brand awareness or drive direct sales, our strategic approach ensures your social media presence is a powerful asset for your business.
+<a href="https://publuu.com/flip-book/16598/2316428?ref_type=bookshelf&ref_id=3215" style="color: red;" target="_blank" rel="noopener noreferrer">
+ZOBACZ KATALOG
+</a>

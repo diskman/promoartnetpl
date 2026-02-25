@@ -89,8 +89,8 @@ projects:
     {% endfor %}
   </div>
   <div class="mt-6">
-    <a href="{{ project.url | relative_url }}" class="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700 transition">
-      Zobacz cala galerie
+    <a href="{{ project.url | relative_url }}" class="realizacje-gallery-link inline-flex items-center font-semibold transition">
+      Zobacz całą galerię
     </a>
   </div>
 </section>

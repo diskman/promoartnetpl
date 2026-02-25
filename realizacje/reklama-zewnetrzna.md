@@ -8,17 +8,17 @@ gallery_groups:
     anchor: roll-up-scianki
     icon: indoor
     images:
-      - image: "/assets/img/portfolio/DentLove_scianka.jpg"
-      - image: "/assets/img/portfolio/DentLove_scianka.jpg"
-      - image: "/assets/img/portfolio/DentLove_scianka.jpg"
-      - image: "/assets/img/portfolio/DentLove_scianka.jpg"
-      - image: "/assets/img/portfolio/DentLove_scianka.jpg"
+      - image: "/assets/img/portfolio/reklama-wizualna/DentLove_scianka.jpg"
+      - image: "/assets/img/portfolio/reklama-wizualna/DentLove_scianka.jpg"
+      - image: "/assets/img/portfolio/reklama-wizualna/DentLove_scianka.jpg"
+      - image: "/assets/img/portfolio/reklama-wizualna/DentLove_scianka.jpg"
+      - image: "/assets/img/portfolio/reklama-wizualna/DentLove_scianka.jpg"
         alt: "Roll up i scianki - realizacja"
   - title: BANER, BILLBOARDY, SIATKI MESH, TABLICE
     anchor: baner-billboardy-siatki-mesh-tablice
     icon: outdoor
     images:
-      - image: "/assets/img/portfolio/baner1.jpg"
+      - image: "/assets/img/portfolio/reklama-wizualna/baner1.jpg"
         alt: "Baner i tablice - realizacja"
   - title: KASETONY, LITERY PRZESTRZENNE, PYLONY
     anchor: kasetony-litery-przestrzenne-pylony
@@ -28,6 +28,6 @@ gallery_groups:
     anchor: flagi-lezaki-namioty
     icon: raport
     images:
-      - image: "/assets/img/portfolio/Flaga_radioem.jpg"
+      - image: "/assets/img/portfolio/reklama-wizualna/Flaga_radioem.jpg"
         alt: "Flagi i namioty - realizacja"
 ---

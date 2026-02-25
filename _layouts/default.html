@@ -56,7 +56,7 @@
   <header id="site-header" class="site-header bg-white border-b border-gray-200">
     <div class="site-shell py-6 flex justify-between items-center">
       <a href="{{ '/' | relative_url }}" class="inline-flex items-center" aria-label="{{ site.title }}">
-        <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="{{ site.title }}" class="h-12" style="width: auto;  height: 100px;">
+        <img id="site-logo" src="{{ '/assets/img/Logo.png' | relative_url }}" alt="{{ site.title }}" class="h-12" style="width: auto; height: 100px;">
       </a>
       <nav class="space-x-6 uppercase">
         <a href="{{ '/oferta/' | relative_url }}" {% if current_url == '/oferta/' %}aria-current="page"{% endif %} class="{% if current_url == '/oferta/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Oferta</a>
@@ -114,6 +114,7 @@
       var content = document.getElementById('page-content');
       var themeToggle = document.getElementById('theme-toggle');
       var themeToggleLabel = document.getElementById('theme-toggle-label');
+      var siteLogo = document.getElementById('site-logo');
       var cookieBanner = document.getElementById('cookie-banner');
       var cookieAccept = document.getElementById('cookie-accept');
       var cookieReject = document.getElementById('cookie-reject');
@@ -159,6 +160,12 @@
       function applyTheme(theme) {
         var isDark = theme === 'dark';
         document.documentElement.classList.toggle('dark', isDark);
+        if (siteLogo) {
+          siteLogo.src = isDark
+            ? "{{ '/assets/img/Logo_dark.png' | relative_url }}"
+            : "{{ '/assets/img/Logo.png' | relative_url }}";
+          siteLogo.style.height = isDark ? '100px' : '100px';
+        }
         if (themeToggleLabel) {
           themeToggleLabel.textContent = isDark ? 'Light mode' : 'Dark mode';
         }

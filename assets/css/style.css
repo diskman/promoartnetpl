@@ -1478,6 +1478,31 @@ video {
   color: #dc2626;
 }
 
+.realizacje-gallery-link {
+  color: #dc2626 !important;
+}
+
+.realizacje-gallery-link:hover {
+  color: #b91c1c !important;
+}
+
+.realizacje-back-link {
+  color: #dc2626 !important;
+}
+
+.realizacje-back-link:hover {
+  color: #b91c1c !important;
+}
+
+.home-banner {
+  overflow: hidden;
+}
+
+.home-banner__img {
+  width: calc(100% + 1px);
+  margin-left: -1px;
+}
+
 @media (max-width: 900px) {
   .oferta-icons-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
