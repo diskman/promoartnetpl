@@ -9,19 +9,19 @@ tagline: Tworzenie marki to proces budowania jej tożsamości, charakteru i spó
 image: /assets/img/oferta/logo.jpg
 icon_features: true
 features:
-  - title: LOGOTYPY /  KSIĘGI ZNAKU
+  - title: LOGOTYPY / KSIĘGI ZNAKU <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: indoor
     link: /realizacje/tworzenie-marki/#logotypy-ksiegi-znaku
     text: 
-  - title: WIZERUNEK FIRMY
+  - title: WIZERUNEK FIRMY <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: outdoor
     link: /realizacje/tworzenie-marki/#wizerunek-firmy
     text: 
-  - title: PROJKETY GRAFICZNE
+  - title: PROJKETY GRAFICZNE <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: pakiet
     link: /realizacje/tworzenie-marki/#projkety-graficzne
     text: 
-  - title: BRANDING
+  - title: BRANDING <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: raport
     link: /realizacje/tworzenie-marki/#branding
     text: 

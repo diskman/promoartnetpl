@@ -9,19 +9,19 @@ tagline: Odzież reklamowa to skuteczny sposób na budowanie rozpoznawalności m
 image: /assets/img/oferta/odziez.png
 icon_features: true
 features:
-  - title: THIRTY, BLUZY, KURTKI
+  - title: THIRTY / BLUZY / KURTKI <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: indoor
     link: /realizacje/odziez-z-nadrukami/#thirty-bluzy-kurtki
     text: 
-  - title: CZAPKI
+  - title: CZAPKI <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: outdoor
     link: /realizacje/odziez-z-nadrukami/#czapki
     text: 
-  - title: TORBY
+  - title: TORBY <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: pakiet
     link: /realizacje/odziez-z-nadrukami/#torby
     text: 
-  - title: INNE
+  - title: INNE <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: raport
     link: /realizacje/odziez-z-nadrukami/#inne
     text: 

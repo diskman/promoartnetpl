@@ -9,35 +9,35 @@ tagline: Gadżety reklamowe to praktyczne i atrakcyjne upominki z logo firmy, kt
 image: /assets/img/oferta/gadzety.png
 icon_features: true
 features:
-  - title: GADŻETY BIUROWE / PIŚMIENNICZE
+  - title: GADŻETY BIUROWE / PIŚMIENNICZE <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: indoor
     link: /realizacje/gadzety-reklamowe/#gadzety-biurowe-pismiennicze
     text: 
-  - title: KUBKI, BUTELKI, BIDONY
+  - title: KUBKI / BUTELKI / BIDONY <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: outdoor
     link: /realizacje/gadzety-reklamowe/#kubki-butelki-bidony
     text: 
-  - title: TORBY, PLECAKI, KOSZE
+  - title: TORBY / PLECAKI / KOSZE <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: pakiet
     link: /realizacje/gadzety-reklamowe/#torby-plecaki-kosze
     text: 
-  - title: GADŻETY DLA DZIECI
+  - title: GADŻETY DLA DZIECI <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: raport
     link: /realizacje/gadzety-reklamowe/#gadzety-dla-dzieci
     text: 
-  - title: SMYCZE 
+  - title: SMYCZE <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: indoor
     link: /realizacje/gadzety-reklamowe/#smycze
     text: 
-  - title: AKCESORIA ELEKTRONICZNE
+  - title: AKCESORIA ELEKTRONICZNE <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: outdoor
     link: /realizacje/gadzety-reklamowe/#akcesoria-elektroniczne
     text: 
-  - title: PARASOLE I AKCESORIA PODROZNE
+  - title: PARASOLE I AKCESORIA PODROZNE <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: pakiet
     link: /realizacje/gadzety-reklamowe/#parasole-i-akcesoria-podrozne
     text: 
-  - title: INNE
+  - title: INNE <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: raport
     link: /realizacje/gadzety-reklamowe/#inne
     text: 

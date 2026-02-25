@@ -9,19 +9,19 @@ tagline: Media cyfrowe to nowoczesne narzędzia komunikacji, które pozwalają s
 image: /assets/img/oferta/media.png
 icon_features: true
 features:
-  - title: Strategia i plan tresci
+  - title: STRONY INTERNETOW <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: indoor
     link: /realizacje/media-cyfrowe/#strategia-i-plan-tresci
-    text: Audyt profilu, propozycja kierunku komunikacji i kalendarz na 30 dni.
-  - title: Kreacje graficzne
+    text:
+  - title: KREACJA SOCIAL MEDIA <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: outdoor
     link: /realizacje/media-cyfrowe/#kreacje-graficzne
     text: 12 dedykowanych postow z przygotowanymi tekstami i formatami.
-  - title: Pakiet startowy reklam
+  - title: PPAKIETY STARTOWE REKLAM <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: pakiet
     link: /realizacje/media-cyfrowe/#pakiet-startowy-reklam
     text: Ustawienie kampanii i rekomendacje budzetowe.
-  - title: Raport miesieczny
+  - title: PREZENTACJE FIRMOWE <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: raport
     link: /realizacje/media-cyfrowe/#raport-miesieczny
     text: Podsumowanie wynikow z kluczowymi wnioskami.
