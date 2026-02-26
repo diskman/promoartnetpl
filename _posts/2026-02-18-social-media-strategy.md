@@ -5,14 +5,14 @@ description: "Filiżanki i kubki z indywidualnym nadrukiem."
 date: 2026-02-18 10:00:00 +0000
 gallery:
   - image: "/assets/img/post/Oferta-filizanki.jpg"
-    alt: "Social media dashboard"
-    caption: "Real-time analytics tracking"
-  - image: "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?auto=format&fit=crop&w=800&q=80"
+    alt: "Oferta na filiżanki"
+    caption: "Oferta na filiżanki"
+  - image: "/assets/img/post/kubki.png"
     alt: "Content creation"
-    caption: "Visual storytelling process"
-  - image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80"
+    caption: "Kubki z nadrukiem"
+  - image: "/assets/img/post/Kubek.png"
     alt: "Team collaboration"
-    caption: "Strategy brainstorming session"
+    caption: "Kolorowe kubki"
 ---
 
 Oferujemy wysokiej jakości porcelanowe filiżanki oraz kubki z indywidualnym nadrukiem, które łączą elegancję z funkcjonalnością. To doskonały wybór dla firm, kawiarni, restauracji oraz jako prestiżowy gadżet reklamowy czy upominek dla klientów i partnerów biznesowych.

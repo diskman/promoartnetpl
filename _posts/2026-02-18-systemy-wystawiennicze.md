@@ -5,14 +5,14 @@ description: "Ścianki reklamowe, rollup, flagi i inne"
 date: 2026-02-18 11:00:00 +0000
 gallery:
   - image: "/assets/img/post/systemy wystwiennicze.jpg"
-    alt: "SEO tools interface"
-    caption: "Keyword research and tracking"
+    alt: "Ścianki wystwiennicze"
+    caption: "Ścianki wystwiennicze"
   - image: "/assets/img/portfolio/reklama-wizualna/Flaga_radioem.jpg"
     alt: "Data visualization"
-    caption: "Organic traffic growth metrics"
+    caption: "Falgi"
   - image: "/assets/img/portfolio/reklama-wizualna/DentLove_scianka.jpg"
     alt: "Technical SEO audit"
-    caption: "Site performance analysis"
+    caption: "Ścianki"
 ---
 
 
@@ -21,10 +21,26 @@ Systemy wystawiennicze to profesjonalne konstrukcje i nośniki reklamowe wykorzy
 <br>
 ### DOBRZE DOBRANY SYSTEM WYSTAWIENNICZY:
 <br>
-- **zwiększa widoczność marki,**
 
-- **buduje profesjonalny wizerunek,**
 
-- **ułatwia komunikację z klientem,**
 
-- **jest mobilny i łatwy w montażu.**
+<div class="element_znak">
+  <img src="/assets/img/post/znak.png" alt="znak" >
+  <p><strong>zwiększa widoczność marki,.</strong></p>
+</div>
+
+<div class="element_znak">
+  <img src="/assets/img/post/znak.png" alt="znak" >
+  <p><strong>buduje profesjonalny wizerunek,</strong></p>
+</div>
+
+<div class="element_znak">
+  <img src="/assets/img/post/znak.png" alt="znak" >
+  <p><strong>ułatwia komunikację z klientem,</strong></p>
+</div>
+<div class="element_znak">
+  <img src="/assets/img/post/znak.png" alt="znak" >
+  <p><strong>jest mobilny i łatwy w montażu.</strong></p>
+</div>
+
+

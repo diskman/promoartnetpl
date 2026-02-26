@@ -7,11 +7,11 @@ projects:
     url: /realizacje/reklama-zewnetrzna/
     description: 
     gallery:
-      - image: "/assets/img/portfolio/baner1.jpg"
+      - image: "/assets/img/portfolio/reklama-wizualna/baner1.jpg"
         alt: "Projekt GreenWave - kreacja 1"
-      - image: "/assets/img/portfolio/Flaga_radioem.jpg"
+      - image: "/assets/img/portfolio/reklama-wizualna/Flaga_radioem.jpg"
         alt: "Projekt GreenWave - kreacja 2"
-      - image: "/assets/img/portfolio/DentLove_scianka.jpg"
+      - image: "/assets/img/portfolio/reklama-wizualna/DentLove_scianka.jpg"
         alt: "Projekt GreenWave - kreacja 3"
   - name: Poligrafia
     url: /realizacje/poligrafia/
