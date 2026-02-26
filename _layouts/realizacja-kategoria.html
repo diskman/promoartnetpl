@@ -16,10 +16,27 @@ layout: default
             activeIndex: 0,
             images: [
               {% if page.gallery_groups %}
+              {% assign image_counter_js = 0 %}
               {% for group in page.gallery_groups %}
-              {% for item in group.images %}
-              { url: "{{ item.image | relative_url }}", alt: "{{ item.alt | default: group.title | escape }}" }{% unless forloop.last and forloop.parentloop.last %},{% endunless %}
+              {% assign group_files = nil %}
+              {% if group.imageFolder %}
+              {% assign group_files = site.static_files | where_exp: "f", "f.path contains group.imageFolder" | where_exp: "f", "f.extname == '.png' or f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.webp'" | sort: "path" %}
+              {% endif %}
+              {% assign effective_images = group_files %}
+              {% if effective_images == nil or effective_images.size == 0 %}
+              {% assign effective_images = group.images %}
+              {% endif %}
+              {% if effective_images %}
+              {% for item in effective_images %}
+              {% if image_counter_js > 0 %},{% endif %}
+              {% if item.path %}
+              { url: "{{ item.path | relative_url }}", alt: "{{ item.name | split: '.' | first | default: group.title | escape }}" }
+              {% else %}
+              { url: "{{ item.image | relative_url }}", alt: "{{ item.alt | default: group.title | escape }}" }
+              {% endif %}
+              {% assign image_counter_js = image_counter_js | plus: 1 %}
               {% endfor %}
+              {% endif %}
               {% endfor %}
               {% else %}
               {% for item in page.gallery %}
@@ -69,12 +86,25 @@ layout: default
           <h2 class="font-semibold text-gray-900">{{ group.title }}</h2>
         </div>
 
-        {% if group.images and group.images.size > 0 %}
+        {% assign group_files = nil %}
+        {% if group.imageFolder %}
+        {% assign group_files = site.static_files | where_exp: "f", "f.path contains group.imageFolder" | where_exp: "f", "f.extname == '.png' or f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.webp'" | sort: "path" %}
+        {% endif %}
+        {% assign effective_images = group_files %}
+        {% if effective_images == nil or effective_images.size == 0 %}
+        {% assign effective_images = group.images %}
+        {% endif %}
+
+        {% if effective_images and effective_images.size > 0 %}
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {% for item in group.images %}
+          {% for item in effective_images %}
           <figure class="group relative overflow-hidden rounded-2xl bg-gray-100 aspect-video cursor-pointer"
                   @click="open({{ image_counter }})">
+            {% if item.path %}
+            <img src="{{ item.path | relative_url }}" alt="{{ item.name | split: '.' | first | default: group.title }}" class="object-cover w-full h-full transition duration-500 group-hover:scale-110">
+            {% else %}
             <img src="{{ item.image | relative_url }}" alt="{{ item.alt | default: group.title }}" class="object-cover w-full h-full transition duration-500 group-hover:scale-110">
+            {% endif %}
           </figure>
           {% assign image_counter = image_counter | plus: 1 %}
           {% endfor %}

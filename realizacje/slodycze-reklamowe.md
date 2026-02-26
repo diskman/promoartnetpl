@@ -7,23 +7,15 @@ gallery_groups:
   - title: KROWKI / CZEKOLADKI
     anchor: krowki-czekoladki
     icon: indoor
-    images:
-      - image: "/assets/img/portfolio/krowki.jpg"
-        alt: "Slodycze reklamowe - krowki"
-      - image: "/assets/img/portfolio/czekoladki.jpg"
-        alt: "Slodycze reklamowe - czekoladki"
+    imageFolder: '/assets/img/portfolio/slodycze-reklamowe/krowki-czekoladki'
   - title: KOSZE SWIATECZNE
     anchor: kosze-swiateczne
     icon: outdoor
-    images: []
   - title: LIZAKI / SLODYCZE
     anchor: lizaki-slodycze
     icon: pakiet
-    images:
-      - image: "/assets/img/portfolio/wpc.jpg"
-        alt: "Slodycze reklamowe - zestawy"
+    imageFolder: '/assets/img/portfolio/slodycze-reklamowe/lizaki-slodycze'
   - title: INNE
     anchor: inne
     icon: raport
-    images: []
 ---
