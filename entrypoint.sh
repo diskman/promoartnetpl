@@ -17,4 +17,4 @@ npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css
 npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch &
 
 # Start Jekyll server
-bundle exec jekyll serve --host 0.0.0.0 --livereload --force_polling
+bundle exec jekyll serve --host 0.0.0.0 --livereload --force_polling --trace

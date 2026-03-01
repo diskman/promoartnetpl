@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="{% assign lang = page.lang | default: site.lang | default: 'en' | downcase | strip %}{% if lang == '' or lang == 'nil' %}en{% else %}{{ lang }}{% endif %}">
 <head>
     <meta charset="UTF-8">
@@ -26,7 +26,7 @@
   <script>
     window.__siteConfig = {
       gaId: {{ site.google_analytics | jsonify }},
-      isProduction: {{ jekyll.environment == 'production' | jsonify }}
+      isProduction: {% if jekyll.environment == 'production' %}true{% else %}false{% endif %}
     };
   </script>
   <script>
@@ -80,7 +80,7 @@
     <div class="site-shell text-center text-gray-500 text-sm">
       <p class="mb-4 text-gray-500 text-xs uppercase tracking-wider">Klienci</p>
       {% assign client_logos = site.static_files | where_exp: "f", "f.path contains '/assets/img/refereces/'" | where_exp: "f", "f.extname == '.png' or f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.webp' or f.extname == '.svg'" | sort: "name" %}
-      <div class="clients-marquee" aria-label="Lista klientów">
+      <div class="clients-marquee" aria-label="Lista klientÃ³w">
         <div class="clients-marquee__track">
           <div class="clients-marquee__group">
             {% for logo in client_logos %}
@@ -300,4 +300,5 @@
   </script>
 </body>
 </html>
+
 
