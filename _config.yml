@@ -1,11 +1,11 @@
-title: Promoart Agencja Reklamowa
+﻿title: Promoart Agencja Reklamowa
 author:
   name: Promoart Agencja Reklamowa
   email: biuro@promoart.net.pl
 description: >-
-  Jesteśmy agencją reklamową z wieloletnim doświadczeniem, specjalizującą się w tworzeniu skutecznych kampanii marketingowych. Oferujemy kompleksowe usługi, które pomogą Twojej firmie wyróżnić się na rynku i osiągnąć sukces. Nasz zespół składa się z kreatywnych specjalistów, którzy są gotowi sprostać nawet najbardziej wymagającym projektom. Współpracujemy z klientami z różnych branż, dostarczając im innowacyjne rozwiązania reklamowe, które przzynoszą realne rezultaty. Niezależnie od tego, czy potrzebujesz kampanii reklamowej, strategii marketingowej, czy też wsparcia w zakresie mediów społecznościowych, jesteśmy tutaj, aby pomóc Ci osiągnąć Twoje cele biznesowe. Skontaktuj się z nami już dziś, aby dowiedzieć się, jak możemy wspólnie stworzyć skuteczną kampanię reklamową, która przyniesie Twojej firmie sukces.
+  JesteÅ›my agencjÄ… reklamowÄ… z wieloletnim doÅ›wiadczeniem, specjalizujÄ…cÄ… siÄ™ w tworzeniu skutecznych kampanii marketingowych. Oferujemy kompleksowe usÅ‚ugi, ktÃ³re pomogÄ… Twojej firmie wyrÃ³Å¼niÄ‡ siÄ™ na rynku i osiÄ…gnÄ…Ä‡ sukces. Nasz zespÃ³Å‚ skÅ‚ada siÄ™ z kreatywnych specjalistÃ³w, ktÃ³rzy sÄ… gotowi sprostaÄ‡ nawet najbardziej wymagajÄ…cym projektom. WspÃ³Å‚pracujemy z klientami z rÃ³Å¼nych branÅ¼, dostarczajÄ…c im innowacyjne rozwiÄ…zania reklamowe, ktÃ³re przzynoszÄ… realne rezultaty. NiezaleÅ¼nie od tego, czy potrzebujesz kampanii reklamowej, strategii marketingowej, czy teÅ¼ wsparcia w zakresie mediÃ³w spoÅ‚ecznoÅ›ciowych, jesteÅ›my tutaj, aby pomÃ³c Ci osiÄ…gnÄ…Ä‡ Twoje cele biznesowe. Skontaktuj siÄ™ z nami juÅ¼ dziÅ›, aby dowiedzieÄ‡ siÄ™, jak moÅ¼emy wspÃ³lnie stworzyÄ‡ skutecznÄ… kampaniÄ™ reklamowÄ…, ktÃ³ra przyniesie Twojej firmie sukces.
 baseurl: ""
-url: ""
+url: "https://promoart.net.pl"
 google_analytics: "" # np. G-XXXXXXXXXX
 
 plugins:
@@ -26,3 +26,4 @@ collections:
   oferta:
     output: true
     permalink: /oferta/:name/
+
