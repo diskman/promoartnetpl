@@ -42,6 +42,8 @@ jobs:
           bundler-cache: true
 
       - name: Build with Jekyll
+        env:
+          JEKYLL_ENV: production
         run: bundle exec jekyll build --baseurl ""
 
       - name: Upload artifact

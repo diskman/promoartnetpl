@@ -23,6 +23,16 @@
   <link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png' | relative_url }}">
   <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}" sizes="180x180">
   <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
+  {% if jekyll.environment == 'production' and site.google_analytics and site.google_analytics != '' %}
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics | uri_escape }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', {{ site.google_analytics | jsonify }});
+  </script>
+  {% endif %}
   <script>
     if (window.location.hostname === 'www.promoart.net.pl') {
       window.location.replace('https://promoart.net.pl' + window.location.pathname + window.location.search + window.location.hash);
@@ -128,19 +138,22 @@
       var siteConfig = window.__siteConfig || {};
       var gaId = siteConfig.gaId;
       var isProduction = !!siteConfig.isProduction;
-      var analyticsLoaded = false;
+      var analyticsLoaded = !!window.gtag || !!document.querySelector('script[src*="googletagmanager.com/gtag/js"]');
 
       function loadAnalytics() {
         if (analyticsLoaded || !isProduction || !gaId) return;
-        analyticsLoaded = true;
+        var existingGaScript = document.querySelector('script[src*="googletagmanager.com/gtag/js"]');
         window.dataLayer = window.dataLayer || [];
         window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
         gtag('js', new Date());
         gtag('config', gaId);
-        var gaScript = document.createElement('script');
-        gaScript.async = true;
-        gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(gaId);
-        document.head.appendChild(gaScript);
+        if (!existingGaScript) {
+          var gaScript = document.createElement('script');
+          gaScript.async = true;
+          gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(gaId);
+          document.head.appendChild(gaScript);
+        }
+        analyticsLoaded = true;
       }
 
       function getConsent() {
