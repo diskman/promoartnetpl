@@ -23,7 +23,7 @@ layout: default
   <section class="mt-10">
     <h2 class="text-2xl font-bold text-gray-900 mb-4">Co zawiera</h2>
     {% if page.icon_features %}
-    <ul class="oferta-icons-grid gap-4">
+    <ul class="oferta-icons-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
       {% for item in page.features %}
       <li class="border border-gray-200 rounded-xl p-4 bg-white shadow-sm text-center">
         <div class="oferta-icon w-12 h-12 mx-auto mb-3 rounded-full bg-gray-100 flex items-center justify-center">
@@ -52,7 +52,7 @@ layout: default
       {% endfor %}
     </ul>
     {% else %}
-    <ul class="grid md:grid-cols-2 gap-4">
+    <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
       {% for item in page.features %}
       <li class="border border-gray-200 rounded-xl p-4 bg-white shadow-sm">
         <p class="font-semibold text-gray-900 mb-1">{{ item.title }}</p>
