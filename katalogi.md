@@ -8,10 +8,10 @@ description: Katalogi produktowe i inspiracje.
 <section class="w-full">
   <header class="mb-8">
     <h1 class="text-4xl font-extrabold text-gray-900 mb-4">Katalogi</h1>
-    <p class="text-lg text-gray-600">Przegladaj katalogi produktowe i inspiracje.</p>
+    <p class="text-lg text-gray-600">Przeglądaj katalogi produktowe i inspiracje.</p>
   </header>
 
-  <div class="katalogi-grid" aria-label="Lista katalogow">
+  <div class="katalogi-grid grid grid-cols-1 lg:grid-cols-3 gap-6" aria-label="Lista katalogów">
     <a class="katalogi-card" href="https://pub.tiphost.net/catalogues/LookIn_2026_PL/index.html" target="_blank" rel="noopener noreferrer">
       <div class="katalogi-icon" aria-hidden="true">
         <svg viewBox="0 0 24 24" role="img">
@@ -55,7 +55,7 @@ description: Katalogi produktowe i inspiracje.
           <path d="M8 10h8M8 13h8M8 16h4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"></path>
         </svg>
       </div>
-      <p class="katalogi-label">KZESTAWY PREZENTOWE</p>
+      <p class="katalogi-label">ZESTAWY PREZENTOWE</p>
     </a>
     <div class="katalogi-card">
       <div class="katalogi-icon" aria-hidden="true">

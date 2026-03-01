@@ -13,7 +13,7 @@ description: Nasi klienci i partnerzy.
 
   {% assign client_logos = site.static_files | where_exp: "f", "f.path contains '/assets/img/refereces/'" | where_exp: "f", "f.extname == '.png' or f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.webp' or f.extname == '.svg'" | sort: "name" %}
 
-  <div class="clients-page-grid" aria-label="Lista klientów">
+  <div class="clients-page-grid grid grid-cols-1 lg:grid-cols-3 gap-6" aria-label="Lista klientów">
     {% for logo in client_logos %}
     <figure class="clients-page-item">
       <img src="{{ logo.path | relative_url }}" alt="{{ logo.name | split: '.' | first }}" loading="lazy">

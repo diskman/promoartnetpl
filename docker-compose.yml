@@ -11,3 +11,4 @@ services:
       - /srv/jekyll/node_modules
     environment:
       - JEKYLL_ENV=development
+      - JEKYLL_LIVERELOAD=0

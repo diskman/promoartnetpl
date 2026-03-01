@@ -16,5 +16,11 @@ npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css
 # Start Tailwind in watch mode in the background
 npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch &
 
-# Start Jekyll server
-bundle exec jekyll serve --host 0.0.0.0 --livereload --force_polling --trace
+# Start Jekyll server.
+# LiveReload can crash in some Docker/browser setups due websocket parser errors.
+# Opt in with JEKYLL_LIVERELOAD=1 when needed.
+if [ "${JEKYLL_LIVERELOAD:-0}" = "1" ]; then
+  bundle exec jekyll serve --host 0.0.0.0 --livereload --force_polling --trace
+else
+  bundle exec jekyll serve --host 0.0.0.0 --force_polling --trace
+fi
