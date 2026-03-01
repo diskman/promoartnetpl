@@ -91,37 +91,8 @@
     {{ content }}
   </main>
 
-  <footer class="bg-white border-t border-gray-200 py-8">
-    <div class="site-shell text-center text-gray-500 text-sm">
-      <p class="mb-4 text-gray-500 text-xs uppercase tracking-wider">Klienci</p>
-      {% assign client_logos = site.static_files | where_exp: "f", "f.path contains '/assets/img/refereces/'" | where_exp: "f", "f.extname == '.png' or f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.webp' or f.extname == '.svg'" | sort: "name" %}
-      <div class="clients-marquee" aria-label="Lista klientów">
-        <div class="clients-marquee__track">
-          <div class="clients-marquee__group">
-            {% for logo in client_logos %}
-            <img src="{{ logo.path | relative_url }}" alt="{{ logo.name | split: '.' | first }}" loading="lazy">
-            {% endfor %}
-          </div>
-          <div class="clients-marquee__group" aria-hidden="true">
-            {% for logo in client_logos %}
-            <img src="{{ logo.path | relative_url }}" alt="{{ logo.name | split: '.' | first }}">
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-      &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-    </div>
-  </footer>
-
-  <div id="cookie-banner" class="cookie-banner" role="dialog" aria-live="polite" aria-label="Cookie consent" hidden>
-    <p class="cookie-banner__text">
-      Uzywamy cookies analitycznych, aby mierzyc ruch i ulepszac strone.
-    </p>
-    <div class="cookie-banner__actions">
-      <button id="cookie-accept" class="cookie-btn cookie-btn--accept" type="button">Akceptuje</button>
-      <button id="cookie-reject" class="cookie-btn cookie-btn--reject" type="button">Odrzucam</button>
-    </div>
-  </div>
+  {% include footer.html %}
+  {% include cookie-banner.html %}
 
   <script>
     (function () {
