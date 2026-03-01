@@ -1,0 +1,25 @@
+<header id="site-header" class="site-header bg-white border-b border-gray-200">
+  <div class="site-shell py-6 flex justify-between items-center">
+    <a href="{{ '/' | relative_url }}" class="inline-flex items-center" aria-label="{{ site.title }}">
+      <img id="site-logo" src="{{ '/assets/img/Logo.png' | relative_url }}" alt="{{ site.title }}" class="site-logo h-12">
+    </a>
+    <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Toggle menu" aria-controls="site-nav" aria-expanded="false">
+      <span class="menu-toggle__icon" aria-hidden="true">
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+      </span>
+    </button>
+    <nav id="site-nav" class="site-nav space-x-6 uppercase">
+      <a href="{{ '/oferta/' | relative_url }}" {% if current_url == '/oferta/' %}aria-current="page"{% endif %} class="{% if current_url == '/oferta/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Oferta</a>
+      <a href="{{ '/realizacje/' | relative_url }}" {% if current_url == '/realizacje/' %}aria-current="page"{% endif %} class="{% if current_url == '/realizacje/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Realizacje</a>
+      <a href="{{ '/o-nas/' | relative_url }}" {% if current_url == '/o-nas/' %}aria-current="page"{% endif %} class="{% if current_url == '/onas/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">O nas</a>
+      <a href="{{ '/klienci/' | relative_url }}" {% if current_url == '/klienci/' %}aria-current="page"{% endif %} class="{% if current_url == '/klienci/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Klienci</a>
+      <a href="{{ '/katalogi/' | relative_url }}" {% if current_url == '/katalogi/' %}aria-current="page"{% endif %} class="{% if current_url == '/katalogi/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Katalogi</a>
+      <a href="{{ '/kontakt/' | relative_url }}" {% if current_url == '/kontakt/' %}aria-current="page"{% endif %} class="{% if current_url == '/kontakt/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Kontakt</a>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle color theme" aria-pressed="false">
+        <span id="theme-toggle-label">Dark mode</span>
+      </button>
+    </nav>
+  </div>
+</header>

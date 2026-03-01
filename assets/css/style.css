@@ -1338,6 +1338,105 @@ video {
   text-transform: uppercase !important;
 }
 
+.site-logo {
+  width: auto;
+  height: 100px;
+}
+
+.menu-toggle {
+  display: none;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+  color: #1e293b;
+  border-radius: 0.6rem;
+  padding: 0.5rem 0.8rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.menu-toggle__icon {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.menu-toggle__line {
+  display: block;
+  width: 18px;
+  height: 2px;
+  border-radius: 999px;
+  background: currentColor;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1023px) {
+  .site-logo {
+    height: 72px;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .site-header .site-shell {
+    position: relative;
+  }
+
+  .site-nav {
+    position: absolute;
+    top: calc(100% + 0.55rem);
+    left: 1rem;
+    right: 1rem;
+    z-index: 1001;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.35rem;
+    padding: 0.75rem;
+    border-radius: 0.9rem;
+    border: 1px solid #e5e7eb;
+    background: #ffffff;
+    box-shadow: 0 18px 36px -26px rgba(15, 23, 42, 0.55);
+  }
+
+  .site-nav.is-open {
+    display: flex;
+  }
+
+  .site-nav a {
+    display: block;
+    padding: 0.55rem 0.65rem;
+  }
+
+  .site-nav .theme-toggle {
+    width: 100%;
+  }
+
+  .site-nav.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .site-nav {
+    position: static;
+    display: flex !important;
+    flex-direction: row;
+    gap: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+}
+
 /* Headings using text-4xl in main tabs/pages */
 
 .text-4xl {
@@ -1452,6 +1551,17 @@ html.dark body {
 html.dark .site-header {
   background-color: rgba(15, 23, 42, 0.88) !important;
   border-color: rgba(51, 65, 85, 0.9) !important;
+}
+
+html.dark .menu-toggle {
+  background: #0f172a;
+  color: #e2e8f0;
+  border-color: #334155;
+}
+
+html.dark .site-nav {
+  background: #0f172a;
+  border-color: #334155;
 }
 
 html.dark .site-header.is-scrolled {
