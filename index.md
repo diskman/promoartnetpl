@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Welcome to My Jekyll Site!
+title: PromoArt Kielce - Kompleksowe usługi reklamowe!
 ---
 
 <div class="home-banner mb-16">
