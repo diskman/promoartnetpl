@@ -1,0 +1,58 @@
+{% assign current_url = page.url | replace: 'index.html', '' %}
+{% if current_url == '' %}
+  {% assign current_url = '/' %}
+{% endif %}
+{% if current_url != '/' %}
+{% assign path_parts = current_url | split: '/' %}
+{% assign first_part = path_parts[1] | default: '' %}
+{% assign first_label = '' %}
+{% assign first_link = '' %}
+
+{% case first_part %}
+  {% when 'oferta' %}
+    {% assign first_label = 'Oferta' %}
+    {% assign first_link = '/oferta/' %}
+  {% when 'portfolio' %}
+    {% assign first_label = 'Portfolio' %}
+    {% assign first_link = '/portfolio/' %}
+  {% when 'realizacje' %}
+    {% assign first_label = 'Portfolio' %}
+    {% assign first_link = '/portfolio/' %}
+  {% when 'o-nas' %}
+    {% assign first_label = 'O nas' %}
+    {% assign first_link = '/o-nas/' %}
+  {% when 'klienci' %}
+    {% assign first_label = 'Klienci' %}
+    {% assign first_link = '/klienci/' %}
+  {% when 'katalogi' %}
+    {% assign first_label = 'Katalogi' %}
+    {% assign first_link = '/katalogi/' %}
+  {% when 'kontakt' %}
+    {% assign first_label = 'Kontakt' %}
+    {% assign first_link = '/kontakt/' %}
+{% endcase %}
+
+<nav class="breadcrumb-wrap site-shell" aria-label="Breadcrumb">
+  <ol class="breadcrumb-list">
+    <li class="breadcrumb-item">
+      <a href="{{ '/' | relative_url }}" class="breadcrumb-link" aria-label="Strona glowna">
+        <svg class="breadcrumb-home-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3.5 10.5 12 3l8.5 7.5V20a1 1 0 0 1-1 1h-5.5v-6h-4v6H4.5a1 1 0 0 1-1-1v-9.5Z"></path>
+        </svg>
+      </a>
+    </li>
+
+    {% if first_label != '' and current_url != first_link %}
+    <li class="breadcrumb-sep" aria-hidden="true">&gt;</li>
+    <li class="breadcrumb-item">
+      <a href="{{ first_link | relative_url }}" class="breadcrumb-link">{{ first_label }}</a>
+    </li>
+    {% endif %}
+
+    <li class="breadcrumb-sep" aria-hidden="true">&gt;</li>
+    <li class="breadcrumb-item">
+      <span class="breadcrumb-current">{{ page.title | default: first_label | default: 'Strona' }}</span>
+    </li>
+  </ol>
+</nav>
+{% endif %}

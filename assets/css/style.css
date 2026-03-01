@@ -1688,6 +1688,52 @@ video {
   background: linear-gradient(90deg, #2563eb, #0ea5e9);
 }
 
+.breadcrumb-wrap {
+  margin-top: 0.7rem;
+}
+
+.breadcrumb-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  color: #64748b;
+}
+
+.breadcrumb-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: #475569;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.breadcrumb-home-icon {
+  width: 0.82rem;
+  height: 0.82rem;
+  fill: currentColor;
+  display: block;
+  transform: translateY(1px);
+}
+
+.breadcrumb-link:hover {
+  color: #dc2626;
+}
+
+.breadcrumb-current {
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.breadcrumb-sep {
+  color: #94a3b8;
+}
+
 .skip-link {
   position: absolute;
   left: 1rem;
@@ -1930,6 +1976,22 @@ html.dark .site-header.is-scrolled {
   background-color: rgba(15, 23, 42, 0.74) !important;
   border-color: rgba(51, 65, 85, 0.9) !important;
   box-shadow: 0 10px 30px -20px rgba(0, 0, 0, 0.8);
+}
+
+html.dark .breadcrumb-list {
+  color: #94a3b8;
+}
+
+html.dark .breadcrumb-link {
+  color: #cbd5e1;
+}
+
+html.dark .breadcrumb-link:hover {
+  color: #fecaca;
+}
+
+html.dark .breadcrumb-current {
+  color: #f8fafc;
 }
 
 html.dark .bg-white {
