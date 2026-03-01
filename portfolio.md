@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Portfolio
-permalink: /realizacje/
+permalink: /portfolio/
 projects:
   - name: Reklama zewnętrzna
-    url: /realizacje/reklama-zewnetrzna/
+    url: /portfolio/reklama-zewnetrzna/
     description: 
     gallery:
       - image: "/assets/img/portfolio/reklama-wizualna/baner1.jpg"
@@ -14,7 +14,7 @@ projects:
       - image: "/assets/img/portfolio/reklama-wizualna/DentLove_scianka.jpg"
         alt: "Projekt GreenWave - kreacja 3"
   - name: Poligrafia
-    url: /realizacje/poligrafia/
+    url: /portfolio/poligrafia/
     description: 
     gallery:
       - image: "/assets/img/oferta/folder.jpg"
@@ -24,7 +24,7 @@ projects:
       - image: "/assets/img/portfolio/Voucher.jpg"
         alt: "Projekt NovaTech - widok strony 3"
   - name: Gadżety reklamowe
-    url: /realizacje/gadzety-reklamowe/
+    url: /portfolio/gadzety-reklamowe/
     description: 
     gallery:
       - image: "/assets/img/portfolio/smycz.jpg"
@@ -34,7 +34,7 @@ projects:
       - image: "/assets/img/portfolio/dlugopis.jpg"
         alt: "Projekt LocalBoost - analiza i raport 3"
   - name: Odzież z nadrukami
-    url: /realizacje/odziez-z-nadrukami/
+    url: /portfolio/odziez-z-nadrukami/
     description: 
     gallery:
       - image: "/assets/img/portfolio/thirt.jpg"
@@ -45,7 +45,7 @@ projects:
         alt: "Projekt LocalBoost - analiza i raport 3"
  
   - name: Słodycze reklamowe
-    url: /realizacje/slodycze-reklamowe/
+    url: /portfolio/slodycze-reklamowe/
     description: 
     gallery:
       - image: "/assets/img/portfolio/krowki.jpg"
@@ -56,7 +56,7 @@ projects:
         alt: "Projekt LocalBoost - analiza i raport 3"
 
   - name: Oklejanie pojazdów
-    url: /realizacje/oklejanie-pojazdow/
+    url: /portfolio/oklejanie-pojazdow/
     description: 
     gallery:
       - image: "/assets/img/portfolio/samochod_voster.png"
