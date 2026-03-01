@@ -9,51 +9,97 @@
   {% if current_url == '/portfolio/' or current_url contains '/portfolio/' or current_url contains '/realizacje/' %}
     {% assign is_portfolio_active = true %}
   {% endif %}
-  <div class="site-shell py-6 flex justify-between items-center">
-    <a href="{{ '/' | relative_url }}" class="inline-flex items-center" aria-label="{{ site.title }}">
-      <img id="site-logo" src="{{ '/assets/img/Logo.png' | relative_url }}" alt="{{ site.title }}" class="site-logo h-12">
-    </a>
-    <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Toggle menu" aria-controls="site-nav" aria-expanded="false">
-      <span class="menu-toggle__icon" aria-hidden="true">
-        <span class="menu-toggle__line"></span>
-        <span class="menu-toggle__line"></span>
-        <span class="menu-toggle__line"></span>
-      </span>
-    </button>
-    <nav id="site-nav" class="site-nav space-x-6 uppercase">
-      <div class="menu-group">
-        <a href="{{ '/oferta/' | relative_url }}" {% if is_oferta_active %}aria-current="page"{% endif %} class="menu-parent {% if is_oferta_active %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Oferta</a>
-        {% if oferta_items and oferta_items.size > 0 %}
-        <div class="menu-dropdown" aria-label="Podstrony oferty">
-          {% for item in oferta_items %}
-          <a href="{{ item.url | relative_url }}" class="menu-subnav-link {% if current_url == item.url %}is-active{% endif %}">
-            {% include menu-subnav-icon.html url=item.url %}
-            <span>{{ item.title }}</span>
-          </a>
-          {% endfor %}
-        </div>
-        {% endif %}
-      </div>
-      <div class="menu-group">
-        <a href="{{ '/portfolio/' | relative_url }}" {% if is_portfolio_active %}aria-current="page"{% endif %} class="menu-parent {% if is_portfolio_active %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Portfolio</a>
-        {% if portfolio_items and portfolio_items.size > 0 %}
-        <div class="menu-dropdown" aria-label="Podstrony portfolio">
-          {% for item in portfolio_items %}
-          <a href="{{ item.url | relative_url }}" class="menu-subnav-link {% if current_url == item.url %}is-active{% endif %}">
-            {% include menu-subnav-icon.html url=item.url %}
-            <span>{{ item.title }}</span>
-          </a>
-          {% endfor %}
-        </div>
-        {% endif %}
-      </div>
-      <a href="{{ '/o-nas/' | relative_url }}" {% if current_url == '/o-nas/' %}aria-current="page"{% endif %} class="{% if current_url == '/onas/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">O nas</a>
-      <a href="{{ '/klienci/' | relative_url }}" {% if current_url == '/klienci/' %}aria-current="page"{% endif %} class="{% if current_url == '/klienci/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Klienci</a>
-      <a href="{{ '/katalogi/' | relative_url }}" {% if current_url == '/katalogi/' %}aria-current="page"{% endif %} class="{% if current_url == '/katalogi/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Katalogi</a>
-      <a href="{{ '/kontakt/' | relative_url }}" {% if current_url == '/kontakt/' %}aria-current="page"{% endif %} class="{% if current_url == '/kontakt/' %}text-blue-600 bg-blue-50 border border-blue-300 rounded-lg px-3 py-1 font-medium transition{% else %}text-gray-600 hover:text-blue-600 font-medium transition{% endif %}">Kontakt</a>
-      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle color theme" aria-pressed="false">
-        <span id="theme-toggle-label">Dark mode</span>
+
+  <nav class="w-full bg-white border-gray-200">
+    <div class="site-shell py-6 flex flex-wrap items-center justify-between">
+      <a href="{{ '/' | relative_url }}" class="inline-flex items-center" aria-label="{{ site.title }}">
+        <img id="site-logo" src="{{ '/assets/img/Logo.png' | relative_url }}" alt="{{ site.title }}" class="site-logo h-12">
+      </a>
+
+      <button data-collapse-toggle="flowbite-navbar" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-600 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="flowbite-navbar" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
       </button>
-    </nav>
-  </div>
+
+      <div class="hidden w-full lg:block lg:w-auto" id="flowbite-navbar">
+        <ul class="font-medium flex flex-col gap-1 p-4 lg:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 lg:flex-row lg:items-center lg:space-x-6 lg:mt-0 lg:border-0 lg:bg-transparent">
+          <li>
+            <button id="dropdownOfertaButton" data-dropdown-toggle="dropdownOferta" data-dropdown-placement="bottom-start" class="menu-level1-link flex items-center justify-between w-full py-2 px-3 rounded lg:p-0 uppercase {% if is_oferta_active %}text-blue-600{% else %}text-gray-600 hover:text-blue-600{% endif %}">
+              OFERTA
+              <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" fill="none" viewBox="0 0 10 6">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+              </svg>
+            </button>
+            <div id="dropdownOferta" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-72">
+              <ul class="py-2 text-sm text-gray-700">
+                <li>
+                  <a href="{{ '/oferta/' | relative_url }}" class="flex items-center gap-2 px-4 py-2 hover:bg-gray-100 {% if is_oferta_active %}text-blue-600{% endif %}">
+                    <span class="menu-subnav-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 3h9l3 3v15H6z"></path>
+                        <path d="M15 3v4h4"></path>
+                      </svg>
+                    </span>
+                    <span>Wszystkie uslugi</span>
+                  </a>
+                </li>
+                {% for item in oferta_items %}
+                <li>
+                  <a href="{{ item.url | relative_url }}" class="flex items-center gap-2 px-4 py-2 hover:bg-gray-100 {% if current_url == item.url %}text-blue-600{% endif %}">
+                    {% include menu-subnav-icon.html url=item.url %}
+                    <span>{{ item.title }}</span>
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <button id="dropdownPortfolioButton" data-dropdown-toggle="dropdownPortfolio" data-dropdown-placement="bottom-start" class="menu-level1-link flex items-center justify-between w-full py-2 px-3 rounded lg:p-0 uppercase {% if is_portfolio_active %}text-blue-600{% else %}text-gray-600 hover:text-blue-600{% endif %}">
+              PORTFOLIO
+              <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" fill="none" viewBox="0 0 10 6">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+              </svg>
+            </button>
+            <div id="dropdownPortfolio" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-72">
+              <ul class="py-2 text-sm text-gray-700">
+                <li>
+                  <a href="{{ '/portfolio/' | relative_url }}" class="flex items-center gap-2 px-4 py-2 hover:bg-gray-100 {% if is_portfolio_active %}text-blue-600{% endif %}">
+                    <span class="menu-subnav-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 6h16v12H4z"></path>
+                        <path d="M8 10h8M8 14h5"></path>
+                      </svg>
+                    </span>
+                    <span>Wszystkie realizacje</span>
+                  </a>
+                </li>
+                {% for item in portfolio_items %}
+                <li>
+                  <a href="{{ item.url | relative_url }}" class="flex items-center gap-2 px-4 py-2 hover:bg-gray-100 {% if current_url == item.url %}text-blue-600{% endif %}">
+                    {% include menu-subnav-icon.html url=item.url %}
+                    <span>{{ item.title }}</span>
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </li>
+
+          <li><a href="{{ '/o-nas/' | relative_url }}" {% if current_url == '/o-nas/' %}aria-current="page"{% endif %} class="menu-level1-link {% if current_url == '/onas/' %}text-blue-600{% else %}text-gray-600 hover:text-blue-600{% endif %} block py-2 px-3 rounded lg:p-0">O nas</a></li>
+          <li><a href="{{ '/klienci/' | relative_url }}" {% if current_url == '/klienci/' %}aria-current="page"{% endif %} class="menu-level1-link {% if current_url == '/klienci/' %}text-blue-600{% else %}text-gray-600 hover:text-blue-600{% endif %} block py-2 px-3 rounded lg:p-0">Klienci</a></li>
+          <li><a href="{{ '/katalogi/' | relative_url }}" {% if current_url == '/katalogi/' %}aria-current="page"{% endif %} class="menu-level1-link {% if current_url == '/katalogi/' %}text-blue-600{% else %}text-gray-600 hover:text-blue-600{% endif %} block py-2 px-3 rounded lg:p-0">Katalogi</a></li>
+          <li><a href="{{ '/kontakt/' | relative_url }}" {% if current_url == '/kontakt/' %}aria-current="page"{% endif %} class="menu-level1-link {% if current_url == '/kontakt/' %}text-blue-600{% else %}text-gray-600 hover:text-blue-600{% endif %} block py-2 px-3 rounded lg:p-0">Kontakt</a></li>
+          <li>
+            <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle color theme" aria-pressed="false">
+              <span id="theme-toggle-label">Dark mode</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 </header>

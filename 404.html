@@ -1,0 +1,27 @@
+---
+layout: default
+permalink: /404.html
+title: 404
+description: Nie znaleziono strony.
+---
+
+<section class="w-full">
+  <div class="not-found-shell">
+    <div class="not-found-orb not-found-orb--blue" aria-hidden="true"></div>
+    <div class="not-found-orb not-found-orb--red" aria-hidden="true"></div>
+    <div class="not-found-card">
+      <p class="not-found-kicker">BLAD 404</p>
+      <h1 class="not-found-title">Nie znaleziono strony</h1>
+      <p class="not-found-text">
+        Wyglada na to, ze adres jest niepoprawny albo strona zostala przeniesiona.
+      </p>
+      <div class="not-found-code" aria-hidden="true">
+        <span>4</span><span>0</span><span>4</span>
+      </div>
+      <div class="not-found-actions">
+        <a href="{{ '/' | relative_url }}" class="not-found-btn not-found-btn--primary">Wroc na strone glowna</a>
+        <a href="{{ '/kontakt/' | relative_url }}" class="not-found-btn not-found-btn--ghost">Skontaktuj sie z nami</a>
+      </div>
+    </div>
+  </div>
+</section>
