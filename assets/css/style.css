@@ -2195,7 +2195,7 @@ html.dark .cookie-btn--reject:hover {
   display: flex;
   width: -moz-max-content;
   width: max-content;
-  animation: clients-marquee-scroll 34s linear infinite;
+  animation: clients-marquee-scroll 54s linear infinite;
 }
 
 .clients-marquee__group {
@@ -2205,11 +2205,7 @@ html.dark .cookie-btn--reject:hover {
 }
 
 .clients-marquee__group img {
-  height: 64px;
-  width: auto;
-  margin-right: 1.25rem;
-  filter: grayscale(100%);
-  opacity: 0.9;
+  height: 64px; /* Zgodnie z referencyjnym panbutek.png */
 }
 
 /* Oferta list: "Zobacz szczegoly" label in red */
@@ -2260,7 +2256,7 @@ html.dark .clients-marquee__group img {
 
 .clients-page-item img {
   max-width: 100%;
-  max-height: 64px;
+  max-height: 64px; /* Jednolita wysokość, jak panbutek.png */
   width: auto;
   height: auto;
   -o-object-fit: contain;

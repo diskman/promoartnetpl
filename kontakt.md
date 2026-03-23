@@ -44,6 +44,18 @@ permalink: /kontakt/
         </p>
       </div>
     </div>
+
+    <div class="kontakt-card kontakt-card--instagram flex items-center space-x-6 bg-gray-50 p-6 rounded-2xl border border-gray-200 transition">
+      <div class="w-14 h-14 rounded-xl flex items-center justify-center flex-shrink-0 text-red-600">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-8 h-8" fill="currentColor"><path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm4.25 2.25a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm4.75-.75a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /></svg>
+      </div>
+      <div>
+        <p class="text-sm font-bold text-gray-400 uppercase tracking-wider">Instagram</p>
+        <p class="text-xl font-bold text-gray-900">
+          <a href="https://www.instagram.com/promoart_net_pl/" target="_blank" rel="noopener noreferrer" class="kontakt-link">@promoart_net_pl</a>
+        </p>
+      </div>
+    </div>
   </div>
 <br>
   <form id="contact-mail-form" class="mt-8 bg-gray-50 p-6 rounded-2xl border border-gray-200" style="display:none;" aria-label="Formularz wiadomosci email">
