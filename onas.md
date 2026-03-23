@@ -11,7 +11,7 @@ permalink: /o-nas/
 
   <h3 class="text-2xl font-bold text-gray-900 mb-4 border-b pb-2">Kim jesteśmy</h3>
   <p class="mb-8">
-Agencja Reklamowa <strong>PromoArt</strong> 
+Agencja Reklamowa <strong>PromoArt z Kielc</strong> 
 
 przez ponad 15 lat wspieramy firmy w skutecznej komunikacji wizualnej. Tworzymy reklamę, która nie tylko przyciąga uwagę, ale przede wszystkim realnie wspiera sprzedaż i buduje rozpoznawalność marki.
 
@@ -31,20 +31,20 @@ Dziękujemy za zaufanie – i zapraszamy do współpracy.
   </p>
 
   <div class="grid gap-6 md:grid-cols-2">
-    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-      <h4 class="font-bold text-gray-900 mb-2">01.</h4>
+    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200 text-center">
+      <h4 class="font-bold text-red-600 mb-2">01.</h4>
       <p class="text-sm text-gray-600">Doświadczeni <strong>Zbuduj</strong> z nami swoja markę.</p>
     </div>
-    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-      <h4 class="font-bold text-gray-900 mb-2">02.</h4>
+    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200 text-center">
+      <h4 class="font-bold text-red-600 mb-2">02.</h4>
       <p class="text-sm text-gray-600">Kompleksowa obsługa – od projektu po realizację i montaż </p>
     </div>
-    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-      <h4 class="font-bold text-gray-900 mb-2">03.</h4>
+    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200 text-center">
+      <h4 class="font-bold text-red-600 mb-2">03.</h4>
       <p class="text-sm text-gray-600">Indywidualne podejście do każdego klienta</p>
     </div>
-    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-      <h4 class="font-bold text-gray-900 mb-2">04.</h4>
+    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200 text-center">
+      <h4 class="font-bold text-red-600 mb-2">04.</h4>
       <p class="text-sm text-gray-600">Terminowość i dbałość o detale</p>
     </div>
   </div>

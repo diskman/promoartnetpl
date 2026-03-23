@@ -150,10 +150,6 @@
   flex: 0 0 1.35rem;
   display: grid;
   place-items: center;
-  border-radius: 0.4rem;
-  background: #eef2ff;
-  color: #1e3a8a;
-  border: 1px solid #dbeafe;
   font-size: 0.78rem;
   line-height: 1;
 }
@@ -161,6 +157,14 @@
 .menu-subnav-icon svg {
   width: 0.95rem;
   height: 0.95rem;
+}
+
+.menu-dot {
+  width: 6px;
+  height: 6px;
+  background-color: #dc2626;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 .menu-subnav-link:hover,
@@ -461,9 +465,7 @@ html.dark .menu-subnav-link {
 }
 
 html.dark .menu-subnav-icon {
-  background: #1e293b;
   color: #bfdbfe;
-  border-color: #334155;
 }
 
 html.dark .menu-subnav-link:hover,

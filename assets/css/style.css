@@ -1253,6 +1253,11 @@ video {
   color: rgb(17 24 39 / var(--tw-text-opacity, 1));
 }
 
+.text-red-600{
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity, 1));
+}
+
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
@@ -1488,10 +1493,6 @@ video {
   flex: 0 0 1.35rem;
   display: grid;
   place-items: center;
-  border-radius: 0.4rem;
-  background: #eef2ff;
-  color: #1e3a8a;
-  border: 1px solid #dbeafe;
   font-size: 0.78rem;
   line-height: 1;
 }
@@ -1499,6 +1500,14 @@ video {
 .menu-subnav-icon svg {
   width: 0.95rem;
   height: 0.95rem;
+}
+
+.menu-dot {
+  width: 6px;
+  height: 6px;
+  background-color: #dc2626;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 .menu-subnav-link:hover,
@@ -1801,9 +1810,7 @@ html.dark .menu-subnav-link {
 }
 
 html.dark .menu-subnav-icon {
-  background: #1e293b;
   color: #bfdbfe;
-  border-color: #334155;
 }
 
 html.dark .menu-subnav-link:hover,
@@ -2195,7 +2202,7 @@ html.dark .cookie-btn--reject:hover {
   display: flex;
   width: -moz-max-content;
   width: max-content;
-  animation: clients-marquee-scroll 54s linear infinite;
+  animation: clients-marquee-scroll 60s linear infinite;
 }
 
 .clients-marquee__group {
@@ -2205,7 +2212,11 @@ html.dark .cookie-btn--reject:hover {
 }
 
 .clients-marquee__group img {
-  height: 64px; /* Zgodnie z referencyjnym panbutek.png */
+  height: 48px;
+  width: auto;
+  margin-right: 2rem;
+  filter: grayscale(100%);
+  opacity: 0.6;
 }
 
 /* Oferta list: "Zobacz szczegoly" label in red */
@@ -2256,7 +2267,7 @@ html.dark .clients-marquee__group img {
 
 .clients-page-item img {
   max-width: 100%;
-  max-height: 64px; /* Jednolita wysokość, jak panbutek.png */
+  max-height: 64px;
   width: auto;
   height: auto;
   -o-object-fit: contain;
