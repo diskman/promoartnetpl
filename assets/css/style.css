@@ -2231,6 +2231,9 @@ html.dark .clients-marquee {
 
 html.dark .clients-marquee__group img {
   opacity: 0.85;
+  background: #ffffff;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
 }
 
 @keyframes clients-marquee-scroll {
@@ -2277,7 +2280,7 @@ html.dark .clients-marquee__group img {
 }
 
 html.dark .clients-page-item {
-  background: #0f172a;
+  background: #ffffff;
   border-color: #334155;
 }
 
