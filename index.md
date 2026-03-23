@@ -4,7 +4,8 @@ title: PromoArt Kielce - Kompleksowe usługi reklamowe!
 ---
 
 <div class="home-banner mb-16">
-  <img src="{{ '/assets/img/banner2.png' | relative_url }}" alt="Promoart banner" class="home-banner__img w-full h-auto object-cover">
+  <img src="{{ '/assets/img/banner2.png' | relative_url }}" alt="Promoart banner" class="home-banner__img w-full h-auto object-cover block dark:hidden">
+  <img src="{{ '/assets/img/banerdark.png' | relative_url }}" alt="Promoart banner" class="home-banner__img w-full h-auto object-cover hidden dark:block">
 </div>
 
 <section class="mb-20">
@@ -28,7 +29,7 @@ title: PromoArt Kielce - Kompleksowe usługi reklamowe!
         {% endif %}
       </div>
       <div class="p-8">
-        <h3 class="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+        <h3 class="text-2xl font-bold text-gray-900 mb-3 group-hover:text-red-600 transition-colors">
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </h3>
         <p class="text-gray-600 mb-6 line-clamp-2">{{ post.description }}</p>
