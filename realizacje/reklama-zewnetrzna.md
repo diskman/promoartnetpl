@@ -15,7 +15,7 @@ gallery_groups:
   - title: KASETONY, LITERY PRZESTRZENNE, PYLONY
     anchor: kasetony-litery-przestrzenne-pylony
     icon: pakiet
-    imageFolder: '/assets/img/portfolio/reklama-wizualna/kasetony'
+    imageFolder: '/assets/img/portfolio/reklama-wizualna/kaseton'
   - title: FLAGI, LEZAKI, NAMIOTY
     anchor: flagi-lezaki-namioty
     icon: raport

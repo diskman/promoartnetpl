@@ -15,7 +15,9 @@ gallery_groups:
   - title: TORBY
     anchor: torby
     icon: pakiet
+    imageFolder: '/assets/img/portfolio/odziez-z-nadrukami/torby'
   - title: INNE
     anchor: inne
     icon: raport
+    imageFolder: '/assets/img/portfolio/odziez-z-nadrukami/inne'
 ---

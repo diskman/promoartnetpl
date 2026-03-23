@@ -29,13 +29,13 @@ features:
     icon: indoor
     link: /realizacje/gadzety-reklamowe/#smycze
     text: 
-  - title: AKCESORIA ELEKTRONICZNE <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
+  - title: AKCERORIA DROBNE <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: outdoor
-    link: /realizacje/gadzety-reklamowe/#akcesoria-elektroniczne
+    link: /realizacje/gadzety-reklamowe/#akceroria-drobne
     text: 
-  - title: PARASOLE I AKCESORIA PODROZNE <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
+  - title: PINSY/MEDALE/PROPORCZYKI <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: pakiet
-    link: /realizacje/gadzety-reklamowe/#parasole-i-akcesoria-podrozne
+    link: /realizacje/gadzety-reklamowe/#pinsy-medale-proporczyki
     text: 
   - title: INNE <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: raport

@@ -17,10 +17,6 @@ features:
     icon: outdoor
     link: /realizacje/slodycze-reklamowe/#kosze-swiateczne
     text: 
-  - title: LIZAKI / SŁODYCZE <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
-    icon: pakiet
-    link: /realizacje/slodycze-reklamowe/#lizaki-slodycze
-    text: 
   - title: INNE <br><span style="color:#dc2626;">ZOBACZ GALERIĘ</span>
     icon: raport
     link: /realizacje/slodycze-reklamowe/#inne

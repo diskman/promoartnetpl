@@ -853,7 +853,7 @@ html.dark .cookie-btn--reject:hover {
 .clients-marquee__track {
   display: flex;
   width: max-content;
-  animation: clients-marquee-scroll 34s linear infinite;
+  animation: clients-marquee-scroll 60s linear infinite;
 }
 
 .clients-marquee__group {
@@ -863,11 +863,11 @@ html.dark .cookie-btn--reject:hover {
 }
 
 .clients-marquee__group img {
-  height: 64px;
+  height: 48px;
   width: auto;
-  margin-right: 1.25rem;
+  margin-right: 2rem;
   filter: grayscale(100%);
-  opacity: 0.9;
+  opacity: 0.6;
 }
 
 /* Oferta list: "Zobacz szczegoly" label in red */

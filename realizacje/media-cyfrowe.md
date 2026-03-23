@@ -11,10 +11,13 @@ gallery_groups:
   - title: Kreacje graficzne
     anchor: kreacje-graficzne
     icon: outdoor
+    imageFolder: '/assets/img/portfolio/media-cyfrowe/kreacje-graficzne'
   - title: Pakiet startowy reklam
     anchor: pakiet-startowy-reklam
     icon: pakiet
+    imageFolder: '/assets/img/portfolio/media-cyfrowe/pakiet-startowy-reklam'
   - title: Raport miesieczny
     anchor: raport-miesieczny
     icon: raport
+    imageFolder: '/assets/img/portfolio/media-cyfrowe/raport-miesieczny'
 ---

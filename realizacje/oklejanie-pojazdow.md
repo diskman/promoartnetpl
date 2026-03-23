@@ -19,4 +19,5 @@ gallery_groups:
   - title: INNE
     anchor: inne
     icon: raport
+    imageFolder: '/assets/img/portfolio/oklejanie-pojazdow/inne'
 ---

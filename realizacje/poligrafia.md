@@ -15,6 +15,7 @@ gallery_groups:
   - title: KALENDARZE
     anchor: kalendarze
     icon: pakiet
+    imageFolder: '/assets/img/portfolio/poligrafia/kalendarze'
   - title: VOUCHERY / ZAPROSZENIA
     anchor: vouchery-zaproszenia
     icon: raport
@@ -22,13 +23,17 @@ gallery_groups:
   - title: NAKLEJKI / ETYKIETY
     anchor: naklejki-etykiety
     icon: indoor
+    imageFolder: '/assets/img/portfolio/poligrafia/naklejki-etykiety'
   - title: NOTESY / BLOCZKI FIRMOWE
     anchor: notesy-bloczki-firmowe
     icon: outdoor
+    imageFolder: '/assets/img/portfolio/poligrafia/notesy-bloczki-firmowe'
   - title: TECZKI
     anchor: teczki
     icon: pakiet
+    imageFolder: '/assets/img/portfolio/poligrafia/teczki'
   - title: HORECA
     anchor: horeca
     icon: raport
+    imageFolder: '/assets/img/portfolio/poligrafia/horeca'
 ---

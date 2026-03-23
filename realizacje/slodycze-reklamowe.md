@@ -11,11 +11,9 @@ gallery_groups:
   - title: KOSZE SWIATECZNE
     anchor: kosze-swiateczne
     icon: outdoor
-  - title: LIZAKI / SLODYCZE
-    anchor: lizaki-slodycze
-    icon: pakiet
-    imageFolder: '/assets/img/portfolio/slodycze-reklamowe/lizaki-slodycze'
+    imageFolder: '/assets/img/portfolio/slodycze-reklamowe/kosze-swiateczne'
   - title: INNE
     anchor: inne
     icon: raport
+    imageFolder: '/assets/img/portfolio/slodycze-reklamowe/inne'
 ---
