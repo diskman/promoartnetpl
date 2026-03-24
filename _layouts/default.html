@@ -139,8 +139,8 @@
         document.documentElement.classList.toggle('dark', isDark);
         if (siteLogo) {
           siteLogo.src = isDark
-            ? "{{ '/assets/img/Logo_dark.png' | relative_url }}"
-            : "{{ '/assets/img/Logo.png' | relative_url }}";
+            ? "{{ '/assets/img/Logo_dark_small.png' | relative_url }}"
+            : "{{ '/assets/img/Logo_small.png' | relative_url }}";
           siteLogo.style.height = isDark ? '100px' : '100px';
         }
         if (themeToggleLabel) {

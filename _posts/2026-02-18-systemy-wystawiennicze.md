@@ -3,14 +3,15 @@ layout: post
 title: "Systemy wystawiennicze"
 description: "Ścianki reklamowe, rollup, flagi i inne"
 date: 2026-02-18 11:00:00 +0000
+thumb: "/assets/img/post/systemy-wystawiennicze-thumb.jpg"
 gallery:
   - image: "/assets/img/post/systemy wystwiennicze.jpg"
     alt: "Ścianki wystwiennicze"
     caption: "Ścianki wystwiennicze"
-  - image: "/assets/img/portfolio/reklama-wizualna/Flaga_radioem.jpg"
+  - image: "/assets/img/realizacje/reklama-wizualna/Flaga_radioem.jpg"
     alt: "Data visualization"
     caption: "Falgi"
-  - image: "/assets/img/portfolio/reklama-wizualna/DentLove_scianka.jpg"
+  - image: "/assets/img/realizacje/reklama-wizualna/DentLove_scianka.jpg"
     alt: "Technical SEO audit"
     caption: "Ścianki"
 ---
@@ -42,5 +43,6 @@ Systemy wystawiennicze to profesjonalne konstrukcje i nośniki reklamowe wykorzy
   <img src="/assets/img/post/znak.png" alt="znak" >
   <p><strong>jest mobilny i łatwy w montażu.</strong></p>
 </div>
+
 
 

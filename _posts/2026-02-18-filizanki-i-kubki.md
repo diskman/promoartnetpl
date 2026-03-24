@@ -3,6 +3,7 @@ layout: post
 title: "FILIŻANKI I KUBKI"
 description: "Filiżanki i kubki z indywidualnym nadrukiem."
 date: 2026-02-18 10:00:00 +0000
+thumb: "/assets/img/post/oferta-filizanki-thumb.jpg"
 gallery:
   - image: "/assets/img/post/Oferta-filizanki.jpg"
     alt: "Oferta na filiżanki"

@@ -7,17 +7,19 @@ gallery_groups:
   - title: Strategia i plan tresci
     anchor: strategia-i-plan-tresci
     icon: indoor
-    imageFolder: '/assets/img/portfolio/media-cyfrowe/strategia-i-plan-tresci'
+    images:
+      - image: '/assets/img/realizacje/media-cyfrowe/strategia-i-plan-tresci/media.png'
   - title: Kreacje graficzne
     anchor: kreacje-graficzne
     icon: outdoor
-    imageFolder: '/assets/img/portfolio/media-cyfrowe/kreacje-graficzne'
+    images: []
   - title: Pakiet startowy reklam
     anchor: pakiet-startowy-reklam
     icon: pakiet
-    imageFolder: '/assets/img/portfolio/media-cyfrowe/pakiet-startowy-reklam'
+    images: []
   - title: Raport miesieczny
     anchor: raport-miesieczny
     icon: raport
-    imageFolder: '/assets/img/portfolio/media-cyfrowe/raport-miesieczny'
+    images: []
 ---
+

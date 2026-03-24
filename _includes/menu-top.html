@@ -1,19 +1,19 @@
 <header id="site-header" class="site-header bg-white border-b border-gray-200">
   {% assign oferta_items = site.oferta | sort: 'order' %}
-  {% assign portfolio_items = site.pages | where_exp: "p", "p.url contains '/realizacje/' and p.url != '/realizacje/'" | sort: "title" %}
+  {% assign realizacje_items = site.pages | where_exp: "p", "p.url contains '/realizacje/' and p.url != '/realizacje/'" | sort: "title" %}
   {% assign is_oferta_active = false %}
   {% if current_url == '/oferta/' or current_url contains '/oferta/' %}
     {% assign is_oferta_active = true %}
   {% endif %}
-  {% assign is_portfolio_active = false %}
-  {% if current_url == '/portfolio/' or current_url contains '/portfolio/' or current_url contains '/realizacje/' %}
-    {% assign is_portfolio_active = true %}
+  {% assign is_realizacje_active = false %}
+  {% if current_url == '/realizacje/' or current_url contains '/realizacje/' %}
+    {% assign is_realizacje_active = true %}
   {% endif %}
 
   <nav class="w-full bg-white border-gray-200">
     <div class="site-shell py-6 flex flex-wrap items-center justify-between">
       <a href="{{ '/' | relative_url }}" class="inline-flex items-center" aria-label="{{ site.title }}">
-        <img id="site-logo" src="{{ '/assets/img/Logo.png' | relative_url }}" alt="{{ site.title }}" class="site-logo h-12">
+        <img id="site-logo" src="{{ '/assets/img/Logo_small.png' | relative_url }}" alt="{{ site.title }}" class="site-logo h-12" width="360" height="128" decoding="async">
       </a>
 
       <button data-collapse-toggle="flowbite-navbar" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-600 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="flowbite-navbar" aria-expanded="false">
@@ -52,18 +52,18 @@
 
           <li>
             <div class="flex items-center gap-2">
-              <a href="{{ '/portfolio/' | relative_url }}" {% if current_url == '/portfolio/' %}aria-current="page"{% endif %} class="menu-level1-link block py-2 px-3 rounded lg:p-0 uppercase {% if is_portfolio_active %}text-blue-600{% else %}text-gray-600 hover:text-blue-600{% endif %}">
-                PORTFOLIO
+              <a href="{{ '/realizacje/' | relative_url }}" {% if current_url == '/realizacje/' %}aria-current="page"{% endif %} class="menu-level1-link block py-2 px-3 rounded lg:p-0 uppercase {% if is_realizacje_active %}text-blue-600{% else %}text-gray-600 hover:text-blue-600{% endif %}">
+                REALIZACJE
               </a>
-              <button id="dropdownPortfolioButton" data-dropdown-toggle="dropdownPortfolio" data-dropdown-placement="bottom-start" class="menu-level1-link inline-flex items-center py-2 px-3 rounded lg:p-0 {% if is_portfolio_active %}text-blue-600{% else %}text-gray-600 hover:text-blue-600{% endif %}" aria-label="Rozwin podmenu Portfolio">
+              <button id="dropdownRealizacjeButton" data-dropdown-toggle="dropdownRealizacje" data-dropdown-placement="bottom-start" class="menu-level1-link inline-flex items-center py-2 px-3 rounded lg:p-0 {% if is_realizacje_active %}text-blue-600{% else %}text-gray-600 hover:text-blue-600{% endif %}" aria-label="Rozwin podmenu Realizacje">
                 <svg class="w-2.5 h-2.5 text-red-600" aria-hidden="true" fill="none" viewBox="0 0 10 6">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
                 </svg>
               </button>
             </div>
-            <div id="dropdownPortfolio" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-72">
+            <div id="dropdownRealizacje" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-72">
               <ul class="py-2 text-sm text-gray-700">
-                {% for item in portfolio_items %}
+                {% for item in realizacje_items %}
                 <li>
                   <a href="{{ item.url | relative_url }}" class="flex items-center gap-2 px-4 py-2 hover:bg-gray-100 {% if current_url == item.url %}text-blue-600{% endif %}">
                     {% include menu-subnav-icon.html url=item.url %}

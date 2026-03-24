@@ -4,8 +4,8 @@ title: PromoArt Kielce - Kompleksowe usługi reklamowe!
 ---
 
 <div class="home-banner mb-16">
-  <img src="{{ '/assets/img/banner2.png' | relative_url }}" alt="Promoart banner" class="home-banner__img w-full h-auto object-cover block dark:hidden">
-  <img src="{{ '/assets/img/banerdark.png' | relative_url }}" alt="Promoart banner" class="home-banner__img w-full h-auto object-cover hidden dark:block">
+  <img src="{{ '/assets/img/home/banner-home.jpg' | relative_url }}" alt="Promoart banner" class="home-banner__img w-full h-auto object-cover block dark:hidden" width="1280" height="488" fetchpriority="high" decoding="async">
+  <img src="{{ '/assets/img/home/banner-dark-home.jpg' | relative_url }}" alt="Promoart banner" class="home-banner__img w-full h-auto object-cover hidden dark:block" width="1279" height="486" fetchpriority="high" decoding="async">
 </div>
 
 <section class="mb-20">
@@ -21,7 +21,7 @@ title: PromoArt Kielce - Kompleksowe usługi reklamowe!
     <article class="group bg-white rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300">
       <div class="aspect-video overflow-hidden relative">
         {% if post.gallery %}
-        <img src="{{ post.gallery[0].image | relative_url }}" alt="{{ post.title }}" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+        <img src="{{ post.thumb | default: post.gallery[0].image | relative_url }}" alt="{{ post.title }}" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" loading="lazy" decoding="async">
         {% else %}
         <div class="w-full h-full bg-blue-50 flex items-center justify-center">
           <svg class="w-12 h-12 text-blue-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>

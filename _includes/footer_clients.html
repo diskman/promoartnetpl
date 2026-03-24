@@ -4,12 +4,14 @@
   <div class="clients-marquee__track">
     <div class="clients-marquee__group">
       {% for logo in client_logos %}
-      <img src="{{ logo.path | relative_url }}" alt="{{ logo.name | split: '.' | first }}" loading="lazy">
+      {% assign optimized_logo_path = logo.path | replace: '/assets/img/refereces/', '/assets/img/refereces-optimized/' %}
+      <img src="{{ optimized_logo_path | relative_url }}" alt="{{ logo.name | split: '.' | first }}" loading="lazy" decoding="async">
       {% endfor %}
     </div>
     <div class="clients-marquee__group" aria-hidden="true">
       {% for logo in client_logos %}
-      <img src="{{ logo.path | relative_url }}" alt="{{ logo.name | split: '.' | first }}">
+      {% assign optimized_logo_path = logo.path | replace: '/assets/img/refereces/', '/assets/img/refereces-optimized/' %}
+      <img src="{{ optimized_logo_path | relative_url }}" alt="{{ logo.name | split: '.' | first }}" loading="lazy" decoding="async">
       {% endfor %}
     </div>
   </div>

@@ -7,17 +7,22 @@ gallery_groups:
   - title: SAMOCHODY OSOBOWE
     anchor: samochody-osobowe
     icon: indoor
-    imageFolder: '/assets/img/portfolio/oklejanie-pojazdow/samochody-osobowe'
+    images:
+      - image: '/assets/img/realizacje/oklejanie-pojazdow/samochody-osobowe/samochod_voster.png'
   - title: AUTOBUSY
     anchor: autobusy
     icon: outdoor
-    imageFolder: '/assets/img/portfolio/oklejanie-pojazdow/autobusy'
+    images:
+      - image: '/assets/img/realizacje/oklejanie-pojazdow/autobusy/autobus.jpg'
   - title: BUSY/VANY
     anchor: busy-vany
     icon: pakiet
-    imageFolder: '/assets/img/portfolio/oklejanie-pojazdow/busy-vany'
+    images:
+      - image: '/assets/img/realizacje/oklejanie-pojazdow/busy-vany/karetka.png'
+      - image: '/assets/img/realizacje/oklejanie-pojazdow/busy-vany/cupra.jpg'
   - title: INNE
     anchor: inne
     icon: raport
-    imageFolder: '/assets/img/portfolio/oklejanie-pojazdow/inne'
+    images: []
 ---
+

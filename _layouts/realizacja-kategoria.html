@@ -20,7 +20,7 @@ layout: default
               {% for group in page.gallery_groups %}
               {% assign group_files = nil %}
               {% if group.imageFolder %}
-              {% assign group_files = site.static_files | where_exp: "f", "f.path contains group.imageFolder" | where_exp: "f", "f.extname == '.png' or f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.webp'" | sort: "path" %}
+              {% assign group_files = site.static_files | where_exp: "f", "f.path contains group.imageFolder" | where_exp: "f", "f.extname == '.png' or f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.webp'" | sort_natural: "name" | reverse %}
               {% endif %}
               {% assign effective_images = group_files %}
               {% if effective_images == nil or effective_images.size == 0 %}
@@ -88,7 +88,7 @@ layout: default
 
         {% assign group_files = nil %}
         {% if group.imageFolder %}
-        {% assign group_files = site.static_files | where_exp: "f", "f.path contains group.imageFolder" | where_exp: "f", "f.extname == '.png' or f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.webp'" | sort: "path" %}
+        {% assign group_files = site.static_files | where_exp: "f", "f.path contains group.imageFolder" | where_exp: "f", "f.extname == '.png' or f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.webp'" | sort_natural: "name" | reverse %}
         {% endif %}
         {% assign effective_images = group_files %}
         {% if effective_images == nil or effective_images.size == 0 %}
