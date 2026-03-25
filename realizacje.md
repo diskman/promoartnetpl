@@ -63,6 +63,16 @@ projects:
         alt: "Projekt LocalBoost - analiza i raport 2"
       - image: "/assets/img/realizacje/cupra.jpg"
         alt: "Projekt LocalBoost - analiza i raport 3"
+  - name: Tworzenie marki
+    url: /realizacje/tworzenie-marki/
+    description:
+    gallery:
+      - image: "/assets/img/realizacje/tworzenie-marki/logotypy-ksiegi-znaku/12.jpg"
+        alt: "Tworzenie marki - logotyp"
+      - image: "/assets/img/realizacje/tworzenie-marki/wizerunek-firmy/1ksiega.png"
+        alt: "Tworzenie marki - księga znaku"
+      - image: "/assets/img/realizacje/tworzenie-marki/branding/2026-03-19_10h25_10.png"
+        alt: "Tworzenie marki - branding"
 ---
 
 <section class="mb-16">
