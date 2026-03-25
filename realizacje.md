@@ -19,7 +19,7 @@ projects:
     gallery:
       - image: "/assets/img/oferta/folder.jpg"
         alt: "Projekt NovaTech - widok strony 1"
-      - image: "/assets/img/realizacje/ulotka_a5.jpg"
+      - image: "/assets/img/realizacje/Ulotka_a5.jpg"
         alt: "Projekt NovaTech - widok strony 2"
       - image: "/assets/img/realizacje/Voucher.jpg"
         alt: "Projekt NovaTech - widok strony 3"
@@ -39,7 +39,7 @@ projects:
     gallery:
       - image: "/assets/img/realizacje/thirt.jpg"
         alt: "Projekt LocalBoost - analiza i raport 1"
-      - image: "/assets/img/realizacje/bluza.jpg"
+      - image: "/assets/img/realizacje/Bluza.jpg"
         alt: "Projekt LocalBoost - analiza i raport 2"
       - image: "/assets/img/realizacje/czapka_mostostal.jpg"
         alt: "Projekt LocalBoost - analiza i raport 3"
