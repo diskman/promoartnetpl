@@ -20,28 +20,27 @@ gallery:
 Systemy wystawiennicze to profesjonalne konstrukcje i nośniki reklamowe wykorzystywane podczas targów, konferencji, eventów, w galeriach handlowych czy salonach sprzedaży. Ich zadaniem jest przyciągnięcie uwagi, prezentacja marki oraz uporządkowane przedstawienie oferty w atrakcyjnej formie wizualnej.
 <br>
 <br>
-### DOBRZE DOBRANY SYSTEM WYSTAWIENNICZY:
-<br>
+<h3 class="text-center">DOBRZE DOBRANY SYSTEM WYSTAWIENNICZY:</h3>
+<div class="max-w-2xl mx-auto text-center space-y-4">
+  <div class="element_znak flex flex-col items-center justify-center gap-3">
+    <img src="/assets/img/post/znak.png" alt="znak">
+    <p class="m-0"><strong>zwiększa widoczność marki.</strong></p>
+  </div>
 
+  <div class="element_znak flex flex-col items-center justify-center gap-3">
+    <img src="/assets/img/post/znak.png" alt="znak">
+    <p class="m-0"><strong>buduje profesjonalny wizerunek.</strong></p>
+  </div>
 
+  <div class="element_znak flex flex-col items-center justify-center gap-3">
+    <img src="/assets/img/post/znak.png" alt="znak">
+    <p class="m-0"><strong>ułatwia komunikację z klientem.</strong></p>
+  </div>
 
-<div class="element_znak">
-  <img src="/assets/img/post/znak.png" alt="znak" >
-  <p><strong>zwiększa widoczność marki,.</strong></p>
-</div>
-
-<div class="element_znak">
-  <img src="/assets/img/post/znak.png" alt="znak" >
-  <p><strong>buduje profesjonalny wizerunek,</strong></p>
-</div>
-
-<div class="element_znak">
-  <img src="/assets/img/post/znak.png" alt="znak" >
-  <p><strong>ułatwia komunikację z klientem,</strong></p>
-</div>
-<div class="element_znak">
-  <img src="/assets/img/post/znak.png" alt="znak" >
-  <p><strong>jest mobilny i łatwy w montażu.</strong></p>
+  <div class="element_znak flex flex-col items-center justify-center gap-3">
+    <img src="/assets/img/post/znak.png" alt="znak">
+    <p class="m-0"><strong>jest mobilny i łatwy w montażu.</strong></p>
+  </div>
 </div>
 
 
