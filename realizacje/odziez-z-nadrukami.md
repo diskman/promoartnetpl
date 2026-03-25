@@ -22,7 +22,7 @@ gallery_groups:
       - image: '/assets/img/realizacje/odziez-z-nadrukami/thirty-bluzy-kurtki/6.png'
       - image: '/assets/img/realizacje/odziez-z-nadrukami/thirty-bluzy-kurtki/5.png'
       - image: '/assets/img/realizacje/odziez-z-nadrukami/thirty-bluzy-kurtki/4.png'
-      - image: '/assets/img/realizacje/odziez-z-nadrukami/thirty-bluzy-kurtki/3.png'
+      - image: '/assets/img/realizacje/odziez-z-nadrukami/thirty-bluzy-kurtki/3.jpg'
       - image: '/assets/img/realizacje/odziez-z-nadrukami/thirty-bluzy-kurtki/2.png'
       - image: '/assets/img/realizacje/odziez-z-nadrukami/thirty-bluzy-kurtki/1.jpg'
   - title: CZAPKI
@@ -31,7 +31,7 @@ gallery_groups:
     images:
       - image: '/assets/img/realizacje/odziez-z-nadrukami/czapki/6.png'
       - image: '/assets/img/realizacje/odziez-z-nadrukami/czapki/5.jpg'
-      - image: '/assets/img/realizacje/odziez-z-nadrukami/czapki/4.png'
+      - image: '/assets/img/realizacje/odziez-z-nadrukami/czapki/4.jpg'
       - image: '/assets/img/realizacje/odziez-z-nadrukami/czapki/3.png'
       - image: '/assets/img/realizacje/odziez-z-nadrukami/czapki/2.png'
       - image: '/assets/img/realizacje/odziez-z-nadrukami/czapki/1.png'
@@ -44,7 +44,7 @@ gallery_groups:
       - image: '/assets/img/realizacje/odziez-z-nadrukami/torby/13.png'
       - image: '/assets/img/realizacje/odziez-z-nadrukami/torby/12.png'
       - image: '/assets/img/realizacje/odziez-z-nadrukami/torby/11.png'
-      - image: '/assets/img/realizacje/odziez-z-nadrukami/torby/10.png'
+      - image: '/assets/img/realizacje/odziez-z-nadrukami/torby/10.jpg'
       - image: '/assets/img/realizacje/odziez-z-nadrukami/torby/9.png'
   - title: INNE
     anchor: inne

@@ -41,7 +41,7 @@ gallery_groups:
     images:
       - image: '/assets/img/realizacje/gadzety-reklamowe/kubki-butelki-bidony/22.png'
       - image: '/assets/img/realizacje/gadzety-reklamowe/kubki-butelki-bidony/21.png'
-      - image: '/assets/img/realizacje/gadzety-reklamowe/kubki-butelki-bidony/20.JPG'
+      - image: '/assets/img/realizacje/gadzety-reklamowe/kubki-butelki-bidony/20.png'
       - image: '/assets/img/realizacje/gadzety-reklamowe/kubki-butelki-bidony/19.png'
       - image: '/assets/img/realizacje/gadzety-reklamowe/kubki-butelki-bidony/18.png'
       - image: '/assets/img/realizacje/gadzety-reklamowe/kubki-butelki-bidony/17.png'
@@ -86,7 +86,7 @@ gallery_groups:
       - image: '/assets/img/realizacje/gadzety-reklamowe/gadzety-dla-dzieci/15.png'
       - image: '/assets/img/realizacje/gadzety-reklamowe/gadzety-dla-dzieci/12.jpeg'
       - image: '/assets/img/realizacje/gadzety-reklamowe/gadzety-dla-dzieci/10.png'
-      - image: '/assets/img/realizacje/gadzety-reklamowe/gadzety-dla-dzieci/2.png'
+      - image: '/assets/img/realizacje/gadzety-reklamowe/gadzety-dla-dzieci/2.jpg'
   - title: SMYCZE
     anchor: smycze
     icon: indoor
@@ -102,8 +102,8 @@ gallery_groups:
       - image: '/assets/img/realizacje/gadzety-reklamowe/smycze/6.jpg'
       - image: '/assets/img/realizacje/gadzety-reklamowe/smycze/5.jpg'
       - image: '/assets/img/realizacje/gadzety-reklamowe/smycze/4.png'
-      - image: '/assets/img/realizacje/gadzety-reklamowe/smycze/3.png'
-      - image: '/assets/img/realizacje/gadzety-reklamowe/smycze/2.png'
+      - image: '/assets/img/realizacje/gadzety-reklamowe/smycze/3.jpg'
+      - image: '/assets/img/realizacje/gadzety-reklamowe/smycze/2.jpg'
       - image: '/assets/img/realizacje/gadzety-reklamowe/smycze/1.png'
   - title: AKCERORIA DROBNE
     anchor: akceroria-drobne
@@ -124,8 +124,8 @@ gallery_groups:
       - image: '/assets/img/realizacje/gadzety-reklamowe/akcesoria-elektroniczne/7.png'
       - image: '/assets/img/realizacje/gadzety-reklamowe/akcesoria-elektroniczne/6.png'
       - image: '/assets/img/realizacje/gadzety-reklamowe/akcesoria-elektroniczne/5.png'
-      - image: '/assets/img/realizacje/gadzety-reklamowe/akcesoria-elektroniczne/4.png'
-      - image: '/assets/img/realizacje/gadzety-reklamowe/akcesoria-elektroniczne/3.png'
+      - image: '/assets/img/realizacje/gadzety-reklamowe/akcesoria-elektroniczne/4.jpg'
+      - image: '/assets/img/realizacje/gadzety-reklamowe/akcesoria-elektroniczne/3.jpg'
       - image: '/assets/img/realizacje/gadzety-reklamowe/akcesoria-elektroniczne/1.png'
   - title: PINSY/MEDALE/PROPORCZYKI
     anchor: pinsy-medale-proporczyki
@@ -133,8 +133,8 @@ gallery_groups:
     images:
       - image: '/assets/img/realizacje/gadzety-reklamowe/parasole-i-akcesoria-podrozne/2026-03-19_09h20_22.png'
       - image: '/assets/img/realizacje/gadzety-reklamowe/parasole-i-akcesoria-podrozne/2026-03-19_09h18_17.png'
-      - image: '/assets/img/realizacje/gadzety-reklamowe/parasole-i-akcesoria-podrozne/12.jpg'
-      - image: '/assets/img/realizacje/gadzety-reklamowe/parasole-i-akcesoria-podrozne/11.jpg'
+      - image: '/assets/img/realizacje/gadzety-reklamowe/parasole-i-akcesoria-podrozne/12.png'
+      - image: '/assets/img/realizacje/gadzety-reklamowe/parasole-i-akcesoria-podrozne/11.png'
       - image: '/assets/img/realizacje/gadzety-reklamowe/parasole-i-akcesoria-podrozne/10.jpeg'
       - image: '/assets/img/realizacje/gadzety-reklamowe/parasole-i-akcesoria-podrozne/9.jpeg'
       - image: '/assets/img/realizacje/gadzety-reklamowe/parasole-i-akcesoria-podrozne/8.png'
@@ -144,15 +144,15 @@ gallery_groups:
       - image: '/assets/img/realizacje/gadzety-reklamowe/parasole-i-akcesoria-podrozne/4.png'
       - image: '/assets/img/realizacje/gadzety-reklamowe/parasole-i-akcesoria-podrozne/3.png'
       - image: '/assets/img/realizacje/gadzety-reklamowe/parasole-i-akcesoria-podrozne/2.png'
-      - image: '/assets/img/realizacje/gadzety-reklamowe/parasole-i-akcesoria-podrozne/1.png'
+      - image: '/assets/img/realizacje/gadzety-reklamowe/parasole-i-akcesoria-podrozne/1.jpg'
   - title: INNE
     anchor: inne
     icon: raport
     images:
       - image: '/assets/img/realizacje/gadzety-reklamowe/inne/6.png'
-      - image: '/assets/img/realizacje/gadzety-reklamowe/inne/5.png'
+      - image: '/assets/img/realizacje/gadzety-reklamowe/inne/5.jpg'
       - image: '/assets/img/realizacje/gadzety-reklamowe/inne/3.png'
-      - image: '/assets/img/realizacje/gadzety-reklamowe/inne/2.png'
-      - image: '/assets/img/realizacje/gadzety-reklamowe/inne/1.png'
+      - image: '/assets/img/realizacje/gadzety-reklamowe/inne/2.jpg'
+      - image: '/assets/img/realizacje/gadzety-reklamowe/inne/1.jpg'
 ---
 

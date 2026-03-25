@@ -7,11 +7,11 @@ projects:
     url: /portfolio/reklama-zewnetrzna/
     description: 
     gallery:
-      - image: "/assets/img/portfolio/reklama-wizualna/baner1.jpg"
+      - image: "/assets/img/realizacje/reklama-wizualna/baner1.jpg"
         alt: "Projekt GreenWave - kreacja 1"
-      - image: "/assets/img/portfolio/reklama-wizualna/Flaga_radioem.jpg"
+      - image: "/assets/img/realizacje/reklama-wizualna/Flaga_radioem.jpg"
         alt: "Projekt GreenWave - kreacja 2"
-      - image: "/assets/img/portfolio/reklama-wizualna/DentLove_scianka.jpg"
+      - image: "/assets/img/realizacje/reklama-wizualna/DentLove_scianka.jpg"
         alt: "Projekt GreenWave - kreacja 3"
   - name: Poligrafia
     url: /portfolio/poligrafia/
@@ -19,51 +19,51 @@ projects:
     gallery:
       - image: "/assets/img/oferta/folder.jpg"
         alt: "Projekt NovaTech - widok strony 1"
-      - image: "/assets/img/portfolio/ulotka_a5.jpg"
+      - image: "/assets/img/realizacje/ulotka_a5.jpg"
         alt: "Projekt NovaTech - widok strony 2"
-      - image: "/assets/img/portfolio/Voucher.jpg"
+      - image: "/assets/img/realizacje/Voucher.jpg"
         alt: "Projekt NovaTech - widok strony 3"
   - name: Gadżety reklamowe
     url: /portfolio/gadzety-reklamowe/
     description: 
     gallery:
-      - image: "/assets/img/portfolio/smycz.jpg"
+      - image: "/assets/img/realizacje/smycz.jpg"
         alt: "Projekt LocalBoost - analiza i raport 1"
-      - image: "/assets/img/portfolio/otwieracz.jpg"
+      - image: "/assets/img/realizacje/otwieracz.jpg"
         alt: "Projekt LocalBoost - analiza i raport 2"
-      - image: "/assets/img/portfolio/dlugopis.jpg"
+      - image: "/assets/img/realizacje/dlugopis.jpg"
         alt: "Projekt LocalBoost - analiza i raport 3"
   - name: Odzież z nadrukami
     url: /portfolio/odziez-z-nadrukami/
     description: 
     gallery:
-      - image: "/assets/img/portfolio/thirt.jpg"
+      - image: "/assets/img/realizacje/thirt.jpg"
         alt: "Projekt LocalBoost - analiza i raport 1"
-      - image: "/assets/img/portfolio/bluza.jpg"
+      - image: "/assets/img/realizacje/bluza.jpg"
         alt: "Projekt LocalBoost - analiza i raport 2"
-      - image: "/assets/img/portfolio/czapka_mostostal.jpg"
+      - image: "/assets/img/realizacje/czapka_mostostal.jpg"
         alt: "Projekt LocalBoost - analiza i raport 3"
  
   - name: Słodycze reklamowe
     url: /portfolio/slodycze-reklamowe/
     description: 
     gallery:
-      - image: "/assets/img/portfolio/krowki.jpg"
+      - image: "/assets/img/realizacje/krowki.jpg"
         alt: "Projekt LocalBoost - analiza i raport 1"
-      - image: "/assets/img/portfolio/czekoladki.jpg"
+      - image: "/assets/img/realizacje/czekoladki.jpg"
         alt: "Projekt LocalBoost - analiza i raport 2"
-      - image: "/assets/img/portfolio/wpc.jpg"
+      - image: "/assets/img/realizacje/wpc.jpg"
         alt: "Projekt LocalBoost - analiza i raport 3"
 
   - name: Oklejanie pojazdów
     url: /portfolio/oklejanie-pojazdow/
     description: 
     gallery:
-      - image: "/assets/img/portfolio/samochod_voster.png"
+      - image: "/assets/img/realizacje/samochod_voster.png"
         alt: "Projekt LocalBoost - analiza i raport 1"
-      - image: "/assets/img/portfolio/autobus.jpg"
+      - image: "/assets/img/realizacje/autobus.jpg"
         alt: "Projekt LocalBoost - analiza i raport 2"
-      - image: "/assets/img/portfolio/cupra.jpg"
+      - image: "/assets/img/realizacje/cupra.jpg"
         alt: "Projekt LocalBoost - analiza i raport 3"
 ---
 

@@ -35,9 +35,9 @@ gallery_groups:
       - image: '/assets/img/realizacje/poligrafia/ulotki-plakaty-wizytowki/22.jpg'
       - image: '/assets/img/realizacje/poligrafia/ulotki-plakaty-wizytowki/21.jpg'
       - image: '/assets/img/realizacje/poligrafia/ulotki-plakaty-wizytowki/20.jpg'
-      - image: '/assets/img/realizacje/poligrafia/ulotki-plakaty-wizytowki/19.png'
-      - image: '/assets/img/realizacje/poligrafia/ulotki-plakaty-wizytowki/18.png'
-      - image: '/assets/img/realizacje/poligrafia/ulotki-plakaty-wizytowki/17.png'
+      - image: '/assets/img/realizacje/poligrafia/ulotki-plakaty-wizytowki/19.jpg'
+      - image: '/assets/img/realizacje/poligrafia/ulotki-plakaty-wizytowki/18.jpg'
+      - image: '/assets/img/realizacje/poligrafia/ulotki-plakaty-wizytowki/17.jpg'
       - image: '/assets/img/realizacje/poligrafia/ulotki-plakaty-wizytowki/15.jpg'
       - image: '/assets/img/realizacje/poligrafia/ulotki-plakaty-wizytowki/14.png'
       - image: '/assets/img/realizacje/poligrafia/ulotki-plakaty-wizytowki/13.png'
@@ -49,10 +49,10 @@ gallery_groups:
       - image: '/assets/img/realizacje/poligrafia/ulotki-plakaty-wizytowki/7.jpg'
       - image: '/assets/img/realizacje/poligrafia/ulotki-plakaty-wizytowki/6.png'
       - image: '/assets/img/realizacje/poligrafia/ulotki-plakaty-wizytowki/6.jpg'
-      - image: '/assets/img/realizacje/poligrafia/ulotki-plakaty-wizytowki/5.png'
+      - image: '/assets/img/realizacje/poligrafia/ulotki-plakaty-wizytowki/5.jpg'
       - image: '/assets/img/realizacje/poligrafia/ulotki-plakaty-wizytowki/4.png'
       - image: '/assets/img/realizacje/poligrafia/ulotki-plakaty-wizytowki/3.png'
-      - image: '/assets/img/realizacje/poligrafia/ulotki-plakaty-wizytowki/2.png'
+      - image: '/assets/img/realizacje/poligrafia/ulotki-plakaty-wizytowki/2.jpg'
       - image: '/assets/img/realizacje/poligrafia/ulotki-plakaty-wizytowki/1.jpg'
   - title: KALENDARZE
     anchor: kalendarze
@@ -88,11 +88,11 @@ gallery_groups:
       - image: '/assets/img/realizacje/poligrafia/kalendarze/8.png'
       - image: '/assets/img/realizacje/poligrafia/kalendarze/7.png'
       - image: '/assets/img/realizacje/poligrafia/kalendarze/6.png'
-      - image: '/assets/img/realizacje/poligrafia/kalendarze/5.png'
-      - image: '/assets/img/realizacje/poligrafia/kalendarze/4.png'
-      - image: '/assets/img/realizacje/poligrafia/kalendarze/3.png'
-      - image: '/assets/img/realizacje/poligrafia/kalendarze/2.png'
-      - image: '/assets/img/realizacje/poligrafia/kalendarze/1.png'
+      - image: '/assets/img/realizacje/poligrafia/kalendarze/5.jpg'
+      - image: '/assets/img/realizacje/poligrafia/kalendarze/4.jpg'
+      - image: '/assets/img/realizacje/poligrafia/kalendarze/3.jpg'
+      - image: '/assets/img/realizacje/poligrafia/kalendarze/2.jpg'
+      - image: '/assets/img/realizacje/poligrafia/kalendarze/1.jpg'
   - title: VOUCHERY / ZAPROSZENIA
     anchor: vouchery-zaproszenia
     icon: raport
@@ -141,7 +141,7 @@ gallery_groups:
       - image: '/assets/img/realizacje/poligrafia/notesy-bloczki-firmowe/6.png'
       - image: '/assets/img/realizacje/poligrafia/notesy-bloczki-firmowe/5.png'
       - image: '/assets/img/realizacje/poligrafia/notesy-bloczki-firmowe/4.png'
-      - image: '/assets/img/realizacje/poligrafia/notesy-bloczki-firmowe/3.png'
+      - image: '/assets/img/realizacje/poligrafia/notesy-bloczki-firmowe/3 (3).jpg'
       - image: '/assets/img/realizacje/poligrafia/notesy-bloczki-firmowe/2.png'
       - image: '/assets/img/realizacje/poligrafia/notesy-bloczki-firmowe/1.png'
   - title: TECZKI
