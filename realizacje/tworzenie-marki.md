@@ -10,15 +10,15 @@ gallery_groups:
     images:
       - image: '/assets/img/realizacje/tworzenie-marki/logotypy-ksiegi-znaku/12.jpg'
       - image: '/assets/img/realizacje/tworzenie-marki/logotypy-ksiegi-znaku/11.jpg'
-      - image: '/assets/img/realizacje/tworzenie-marki/logotypy-ksiegi-znaku/10.png'
-      - image: '/assets/img/realizacje/tworzenie-marki/logotypy-ksiegi-znaku/9.png'
-      - image: '/assets/img/realizacje/tworzenie-marki/logotypy-ksiegi-znaku/8.png'
-      - image: '/assets/img/realizacje/tworzenie-marki/logotypy-ksiegi-znaku/7.png'
-      - image: '/assets/img/realizacje/tworzenie-marki/logotypy-ksiegi-znaku/5.png'
-      - image: '/assets/img/realizacje/tworzenie-marki/logotypy-ksiegi-znaku/4.png'
-      - image: '/assets/img/realizacje/tworzenie-marki/logotypy-ksiegi-znaku/3.png'
-      - image: '/assets/img/realizacje/tworzenie-marki/logotypy-ksiegi-znaku/2.png'
-      - image: '/assets/img/realizacje/tworzenie-marki/logotypy-ksiegi-znaku/1.png'
+      - image: '/assets/img/realizacje/tworzenie-marki/logotypy-ksiegi-znaku/10.jpg'
+      - image: '/assets/img/realizacje/tworzenie-marki/logotypy-ksiegi-znaku/9.jpg'
+      - image: '/assets/img/realizacje/tworzenie-marki/logotypy-ksiegi-znaku/8.jpg'
+      - image: '/assets/img/realizacje/tworzenie-marki/logotypy-ksiegi-znaku/7.jpg'
+      - image: '/assets/img/realizacje/tworzenie-marki/logotypy-ksiegi-znaku/5.jpg'
+      - image: '/assets/img/realizacje/tworzenie-marki/logotypy-ksiegi-znaku/4.jpg'
+      - image: '/assets/img/realizacje/tworzenie-marki/logotypy-ksiegi-znaku/3.jpg'
+      - image: '/assets/img/realizacje/tworzenie-marki/logotypy-ksiegi-znaku/2.jpg'
+      - image: '/assets/img/realizacje/tworzenie-marki/logotypy-ksiegi-znaku/1.jpg'
   - title: KSIEGI ZNAKU
     anchor: ksiegi-znaku
     icon: outdoor
@@ -30,8 +30,8 @@ gallery_groups:
     images:
       - image: '/assets/img/realizacje/tworzenie-marki/projkety-graficzne/30.png'
       - image: '/assets/img/realizacje/tworzenie-marki/projkety-graficzne/22.jpg'
-      - image: '/assets/img/realizacje/tworzenie-marki/projkety-graficzne/19.png'
-      - image: '/assets/img/realizacje/tworzenie-marki/projkety-graficzne/17.png'
+      - image: '/assets/img/realizacje/tworzenie-marki/projkety-graficzne/19.jpg'
+      - image: '/assets/img/realizacje/tworzenie-marki/projkety-graficzne/17.jpg'
       - image: '/assets/img/realizacje/tworzenie-marki/projkety-graficzne/12.jpg'
       - image: '/assets/img/realizacje/tworzenie-marki/projkety-graficzne/11.png'
       - image: '/assets/img/realizacje/tworzenie-marki/projkety-graficzne/8.png'
